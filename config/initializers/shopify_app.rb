@@ -8,5 +8,4 @@ ShopifyApp.configure do |config|
   config.after_authenticate_job = false
   config.api_version = "2019-10"
   config.session_repository = ShopifyApp::InMemorySessionStore
-  # config.root_url = '/'
 end

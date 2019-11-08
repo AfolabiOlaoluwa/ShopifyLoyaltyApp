@@ -5,5 +5,13 @@ Rails.application.config.middleware.use OmniAuth::Builder do
            ShopifyApp.configuration.api_key,
            ShopifyApp.configuration.secret,
            scope: ShopifyApp.configuration.scope,
-           callback_path: 'auth/shopify/callback'
+           setup: lambda { |env|
+             strategy = env['omniauth.strategy']
+
+             shopify_auth_params = strategy.session['shopify.omniauth_params']&.with_indifferent_access
+             shop = shopify_auth_params.present? ? "https://#{shopify_auth_params[:shop]}" : ''
+
+             strategy.options[:client_options][:site] = shop
+             strategy.options[:old_client_secret] = ShopifyApp.configuration.old_secret
+           }
 end
