@@ -6,6 +6,7 @@
       <w>capybara</w>
       <w>dotenv</w>
       <w>jbuilder</w>
+      <w>omni</w>
       <w>omniauth</w>
       <w>shopify</w>
       <w>turbolinks</w>
