@@ -5,7 +5,7 @@ provider :shopify,
          ShopifyApp.configuration.api_key,
          ShopifyApp.configuration.secret,
          scope: ShopifyApp.configuration.scope,
-         callback_path: 'auth/shopify/callback',
+         callback_path: '/auth/shopify/callback',
          setup: lambda { |env|
            strategy = env['omniauth.strategy']
 
