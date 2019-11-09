@@ -8,9 +8,6 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 
-require("shopify/shopify_app")
-require("shopify/flash_messages")
-
 import 'bootstrap'
 import './src/application.scss'
 

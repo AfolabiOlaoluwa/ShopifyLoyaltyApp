@@ -5,12 +5,15 @@
     <% application_name = ShopifyApp.configuration.application_name %>
     <title><%= application_name %></title>
     <%= stylesheet_link_tag 'application' %>
+
     <% if ShopifyApp.use_webpacker? %>
       <%#= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+      <%#= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
       <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <% else %>
       <%= javascript_include_tag 'application', "data-turbolinks-track" => true %>
     <% end %>
+
     <%= csrf_meta_tags %>
   </head>
 
