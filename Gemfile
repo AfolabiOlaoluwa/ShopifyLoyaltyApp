@@ -41,4 +41,4 @@ gem 'shopify_app'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 gem 'dotenv-rails', group: %i[test development]
-gem 'dotenv-rails', group: [:test, :development]
+gem 'sprockets', '~> 3.0'

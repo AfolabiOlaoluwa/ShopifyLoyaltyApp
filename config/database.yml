@@ -14,5 +14,5 @@ test:
 production:
   <<: *default
   database: ShopifyLoyaltyApp_production
-  username: ShopifyLoyaltyApp
+  username: postgres
   password: <%= ENV['SHOPIFYLOYALTYAPP_DATABASE_PASSWORD'] %>
