@@ -16,10 +16,6 @@ module ShopifyLoyaltyApp
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
 
-    # Exception handler
-    # config.exceptions_app = lambda { |env|
-    #   ExceptionsController.action(:show).call(env)
-    # }
-    # config.exceptions_app = ->(env) { ExceptionsController.action(:show).call(env) }
+    config.exceptions_app = ->(env) { ExceptionsController.action(:show).call(env) }
   end
 end

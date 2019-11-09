@@ -5,5 +5,5 @@ Rails.application.routes.draw do
 
   mount ShopifyApp::Engine, at: '/'
 
-  # get 'exceptions/show'
+  get 'exceptions/show'
 end
