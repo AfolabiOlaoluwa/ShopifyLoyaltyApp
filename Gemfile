@@ -17,7 +17,6 @@ gem 'webpacker', '~> 4.0'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
-# Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
@@ -37,8 +36,8 @@ group :test do
   gem 'webdrivers'
 end
 
-gem 'shopify_app'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 gem 'dotenv-rails'
+gem 'shopify_app', '~> 11.3'
 gem 'sprockets', '~> 3.0'

@@ -200,8 +200,9 @@ GEM
       activeresource (>= 4.1.0, < 6.0.0)
       graphql-client
       rack
-    shopify_app (11.2.0)
+    shopify_app (11.3.0)
       browser_sniffer (~> 1.1.2)
+      dotenv-rails (~> 2.7.5)
       omniauth-shopify-oauth2 (~> 2.2.0)
       rails (> 5.2.1)
       shopify_api (~> 8.0)
@@ -259,7 +260,7 @@ DEPENDENCIES
   rails (~> 6.0.1)
   sass-rails (>= 6)
   selenium-webdriver
-  shopify_app
+  shopify_app (~> 11.3)
   spring
   spring-watcher-listen (~> 2.0.0)
   sprockets (~> 3.0)
