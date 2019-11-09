@@ -40,4 +40,4 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 gem 'dotenv-rails'
 gem 'shopify_app', '~> 11.3'
-gem 'sprockets', '~> 3.0'
+# gem 'sprockets', '~> 3.0'
