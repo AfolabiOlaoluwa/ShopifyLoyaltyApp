@@ -20,6 +20,6 @@ module ShopifyLoyaltyApp
     # config.exceptions_app = lambda { |env|
     #   ExceptionsController.action(:show).call(env)
     # }
-    config.exceptions_app = ->(env) { ExceptionsController.action(:show).call(env) }
+    # config.exceptions_app = ->(env) { ExceptionsController.action(:show).call(env) }
   end
 end
