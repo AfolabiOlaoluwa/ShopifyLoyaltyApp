@@ -1,1 +1,0 @@
-ShopifyApp = YAML.load_file(Rails.root.join('config', 'prod_key_config.yml'))[Rails.env]
