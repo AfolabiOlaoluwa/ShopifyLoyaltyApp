@@ -1,0 +1,5 @@
+keys: &keys
+  api_key: ae8ab39068d84c624bc3c0af3b51fa84
+
+production:
+  << : *keys
