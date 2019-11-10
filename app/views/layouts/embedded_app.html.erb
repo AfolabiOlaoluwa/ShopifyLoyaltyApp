@@ -26,7 +26,8 @@
 
     <%= render 'layouts/flash_messages' %>
 
-    <script src="https://cdn.shopify.com/s/assets/external/app.js?<%= Time.now.strftime('%Y%m%d%H') %>"></script>
+<!--    <script src="https://cdn.shopify.com/s/assets/external/app.js?<%#= Time.now.strftime('%Y%m%d%H') %>"></script>-->
+    <script src="https://cdn.shopify.com/s/assets/external/app.js"></script>
 
     <%= content_tag(:div, nil, id: 'shopify-app-init', data: {
       api_key: ShopifyApp.configuration.api_key,
