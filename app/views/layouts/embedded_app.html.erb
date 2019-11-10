@@ -4,6 +4,8 @@
     <meta charset="utf-8" />
     <% application_name = ShopifyApp.configuration.application_name %>
     <title><%= application_name %></title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
     <%= stylesheet_link_tag 'application' %>
 
     <% if ShopifyApp.use_webpacker? %>
@@ -28,6 +30,8 @@
 
 <!--    <script src="https://cdn.shopify.com/s/assets/external/app.js?<%#= Time.now.strftime('%Y%m%d%H') %>"></script>-->
     <script src="https://cdn.shopify.com/s/assets/external/app.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <%= content_tag(:div, nil, id: 'shopify-app-init', data: {
       api_key: ShopifyApp.configuration.api_key,
