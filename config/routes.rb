@@ -2,14 +2,7 @@
 
 Rails.application.routes.draw do
   resources :customer_details
-  resources :earning_rules, path: ' /admin/apps/fera-loyalty/earning_rules'
-
-
-  # namespace :admin do
-  #   namespace :apps do
-  #     resources :earning_rules, path: '/fera-loyalty/earning_rules'
-  #   end
-  # end
+  resources :earning_rules
 
   root to: 'home#index'
 
