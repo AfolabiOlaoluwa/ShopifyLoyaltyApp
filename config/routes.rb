@@ -2,7 +2,13 @@
 
 Rails.application.routes.draw do
   resources :customer_details
-  resources :earning_rules
+
+  namespace :admin do
+    namespace :app do
+      resources :earning_rules, path: '/fera-loyalty'
+    end
+  end
+
   root to: 'home#index'
 
   mount ShopifyApp::Engine, at: '/'
