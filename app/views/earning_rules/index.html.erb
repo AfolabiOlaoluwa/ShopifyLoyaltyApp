@@ -8,25 +8,23 @@
 
 <%= render 'shared/home_banner_section' %>
 
-<!--<p id="notice"><%#= notice %></p>-->
 <section class="mt-5">
+  <!--<p id="notice"><%#= notice %></p>-->
 
 <!--  <div class="container">-->
     <%#= flash_messages_for(@earning_rule) %>
 <!--  </div>-->
 
-
-
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
-        <h4 class="active-event-title">
+      <div class="col-6">
+        <h5 class="active-event-title">
           <%= t('earning_rule_page.table_heading.title') %>
-        </h4>
+        </h5>
       </div>
 
-      <div class="col-md-6">
-        <div id="new-clock-entry">
+      <div class="col-6">
+        <div class="mb-3">
           <%= link_to t('earning_rule_page.table_heading.button_labels.new'), new_earning_rule_path, remote: true, class: 'btn btn-info btn-sm float-right ml-auto' %>
         </div>
       </div>
@@ -34,13 +32,13 @@
 
     <div class="row">
       <div class="col-md-12">
-        <table class="table table-bordered table-hover" id="clock-entry">
+        <table class="table table-bordered table-hover">
           <thead>
             <tr>
               <th>Name</th>
               <th>Point</th>
               <th>Status</th>
-              <th colspan="2"></th>
+              <th>Action</th>
             </tr>
           </thead>
 

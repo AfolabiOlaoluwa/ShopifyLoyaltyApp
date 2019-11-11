@@ -1,13 +1,10 @@
 <% present(earning_rule) do |earning_rule| %>
-  <tr id="remove-row" class="refresh">
-    <td><%= earning_rule.name %></td>
+  <tr>
+    <td><%= link_to earning_rule.name, edit_earning_rule_path(earning_rule) %></td>
     <td><%= earning_rule.point %></td>
     <td><%= earning_rule.status %></td>
     <td>
-      <div id="edit-clock-entry-<%= earning_rule.id %>">
-        <%= link_to t('earning_rule_page.table_heading.button_labels.edit'), edit_earning_rule_path(earning_rule), remote: true, class: 'btn btn-primary btn-sm' %>
-      </div>
+      <%= link_to t('earning_rule_page.table_heading.button_labels.delete'), earning_rule, method: :delete, class: 'delete btn btn-danger btn-sm' %> <!--, data: { confirm: t('earning_rule_page.table_heading.messages.delete'), remote: true }-->
     </td>
-    <td><%= link_to t('earning_rule_page.table_heading.button_labels.delete'), earning_rule, method: :delete, data: { confirm: t('earning_rule_page.table_heading.messages.delete'), remote: true }, class: 'delete btn btn-primary btn-sm' %></td>
   </tr>
 <% end %>
