@@ -4,8 +4,8 @@ Rails.application.routes.draw do
   resources :customer_details
 
   namespace :admin do
-    namespace :app do
-      resources :earning_rules, path: '/fera-loyalty'
+    namespace :apps do
+      resources :earning_rules, path: '/fera-loyalty/earning_rules'
     end
   end
 
