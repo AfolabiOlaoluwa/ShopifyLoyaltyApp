@@ -6,35 +6,39 @@
   </script>
 <% end %>
 
+<%= render 'shared/home_banner_section' %>
 
-<p id="notice"><%= notice %></p>
+<!--<p id="notice"><%#= notice %></p>-->
+<section>
+  <div class="container">
+    <%= flash_messages_for(@earning_rule) %>
+  </div>
 
-<h1>Earning Rules</h1>
+  <div class="container" id="new-clock-entry">
+    <%= link_to 'Add earning rule', new_earning_rule_path, remote: true, class: '#' %>
+  </div>
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Point</th>
-      <th>Status</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+  <br>
 
-  <tbody>
-    <% @earning_rules.each do |earning_rule| %>
-      <tr>
-        <td><%= earning_rule.name %></td>
-        <td><%= earning_rule.point %></td>
-        <td><%= earning_rule.status %></td>
-        <td><%= link_to 'Show', earning_rule %></td>
-        <td><%= link_to 'Edit', edit_earning_rule_path(earning_rule) %></td>
-        <td><%= link_to 'Destroy', earning_rule, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+  <div class="container">
+    <h4 class="active-event-title">
+      <%= t('earning_rule_page.table_heading.title') %>
+    </h4>
 
-<br>
+    <table class="table table-bordered table-hover" id="clock-entry">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Point</th>
+          <th>Status</th>
+          <th colspan="2"></th>
+        </tr>
+      </thead>
 
-<%= link_to 'New Earning Rule', new_earning_rule_path %>
+      <tbody>
+        <%= render @earning_rules %>
+      </tbody>
+    </table>
+  </div>
+
+</section>
