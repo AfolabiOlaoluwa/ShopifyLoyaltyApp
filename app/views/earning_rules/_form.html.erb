@@ -1,32 +1,69 @@
-<%= form_with(model: earning_rule, local: true) do |form| %>
-  <% if earning_rule.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(earning_rule.errors.count, "error") %> prohibited this earning_rule from being saved:</h2>
+<div class="container mt-5">
+  <%= simple_form_for earning_rule do |f| %>
+    <div class="row align-items-center">
+      <div class="col-6 mt-1">
+        <h5 class="active-event-title">
+          <%= t('earning_rule_page.table_heading.title') %>
+        </h5>
+      </div>
 
-      <ul>
-        <% earning_rule.errors.full_messages.each do |message| %>
-          <li><%= message %></li>
-        <% end %>
-      </ul>
+      <div class="col-6">
+        <div class="mb-3">
+          <div class="form-actions">
+            <%= f.button :submit, class: 'btn btn-info btn-sm float-right ml-auto' %>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+      <div class="col-sm-8 mb-3">
+        <div class="card border-secondary">
+          <div class="card-body">
+            <h5 class="card-title">Earning Name</h5>
+            <div class="form-inputs">
+              <%= f.input :name %>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4 d-none d-md-block">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Summary</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-8 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Earning Value</h5>
+            <div class="form-inputs">
+              <%= f.input :point %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-8 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Earning Status</h5>
+            <div class="form-inputs">
+              <%= f.check_box :status %>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   <% end %>
-
-  <div class="field">
-    <%= form.label :name %>
-    <%= form.text_field :name %>
-  </div>
-
-  <div class="field">
-    <%= form.label :point %>
-    <%= form.number_field :point %>
-  </div>
-
-  <div class="field">
-    <%= form.label :status %>
-    <%= form.check_box :status %>
-  </div>
-
-  <div class="actions">
-    <%= form.submit %>
-  </div>
-<% end %>
+</div>
