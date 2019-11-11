@@ -9,36 +9,46 @@
 <%= render 'shared/home_banner_section' %>
 
 <!--<p id="notice"><%#= notice %></p>-->
-<section>
-  <div class="container">
-    <%= flash_messages_for(@earning_rule) %>
-  </div>
+<section class="mt-5">
 
-  <div class="container" id="new-clock-entry">
-    <%= link_to 'Add earning rule', new_earning_rule_path, remote: true, class: '#' %>
-  </div>
+<!--  <div class="container">-->
+    <%#= flash_messages_for(@earning_rule) %>
+<!--  </div>-->
 
-  <br>
+
 
   <div class="container">
-    <h4 class="active-event-title">
-      <%= t('earning_rule_page.table_heading.title') %>
-    </h4>
+    <div class="row">
+      <div class="col-md-6">
+        <h4 class="active-event-title">
+          <%= t('earning_rule_page.table_heading.title') %>
+        </h4>
+      </div>
 
-    <table class="table table-bordered table-hover" id="clock-entry">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Point</th>
-          <th>Status</th>
-          <th colspan="2"></th>
-        </tr>
-      </thead>
+      <div class="col-md-6">
+        <div id="new-clock-entry">
+          <%= link_to t('earning_rule_page.table_heading.button_labels.new'), new_earning_rule_path, remote: true, class: 'btn btn-info btn-sm float-right ml-auto' %>
+        </div>
+      </div>
+    </div>
 
-      <tbody>
-        <%= render @earning_rules %>
-      </tbody>
-    </table>
+    <div class="row">
+      <div class="col-md-12">
+        <table class="table table-bordered table-hover" id="clock-entry">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Point</th>
+              <th>Status</th>
+              <th colspan="2"></th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <%= render @earning_rules %>
+          </tbody>
+        </table>
+      </div>
+    </div>
   </div>
-
 </section>

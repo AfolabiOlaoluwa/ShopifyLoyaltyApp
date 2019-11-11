@@ -3,6 +3,7 @@ en:
     table_heading:
       title: "Earning Rules"
       button_labels:
+        new: "ADD EARNING RULE"
         edit: "Edit"
         delete: "Delete"
       messages:
