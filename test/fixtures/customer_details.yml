@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  earning_rule: one
+  name: MyString
+  email: MyString
+  point_balance: 9.99
+  event: MyString
+
+two:
+  earning_rule: two
+  name: MyString
+  email: MyString
+  point_balance: 9.99
+  event: MyString

@@ -39,5 +39,7 @@ end
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 gem 'dotenv-rails'
+gem 'pagy', '~> 3.5', '>= 3.5.1'
 gem 'shopify_app', '~> 11.3'
+gem 'simple_form'
 gem 'sprockets', '~> 3.0'

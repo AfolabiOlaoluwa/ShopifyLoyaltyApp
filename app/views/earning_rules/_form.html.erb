@@ -1,0 +1,32 @@
+<%= form_with(model: earning_rule, local: true) do |form| %>
+  <% if earning_rule.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(earning_rule.errors.count, "error") %> prohibited this earning_rule from being saved:</h2>
+
+      <ul>
+        <% earning_rule.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :point %>
+    <%= form.number_field :point %>
+  </div>
+
+  <div class="field">
+    <%= form.label :status %>
+    <%= form.check_box :status %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

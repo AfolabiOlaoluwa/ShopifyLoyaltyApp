@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Customer Details</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Earning rule</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Point balance</th>
+      <th>Event</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @customer_details.each do |customer_detail| %>
+      <tr>
+        <td><%= customer_detail.earning_rule_id %></td>
+        <td><%= customer_detail.name %></td>
+        <td><%= customer_detail.email %></td>
+        <td><%= customer_detail.point_balance %></td>
+        <td><%= customer_detail.event %></td>
+        <td><%= link_to 'Show', customer_detail %></td>
+        <td><%= link_to 'Edit', edit_customer_detail_path(customer_detail) %></td>
+        <td><%= link_to 'Destroy', customer_detail, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Customer Detail', new_customer_detail_path %>

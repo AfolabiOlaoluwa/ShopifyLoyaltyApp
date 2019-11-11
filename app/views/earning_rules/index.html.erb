@@ -1,0 +1,40 @@
+<% content_for :javascript do %>
+  <script type="text/javascript">
+      ShopifyApp.ready(function(){
+          ShopifyApp.Bar.initialize({ title: "Home" });
+      });
+  </script>
+<% end %>
+
+
+<p id="notice"><%= notice %></p>
+
+<h1>Earning Rules</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Point</th>
+      <th>Status</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @earning_rules.each do |earning_rule| %>
+      <tr>
+        <td><%= earning_rule.name %></td>
+        <td><%= earning_rule.point %></td>
+        <td><%= earning_rule.status %></td>
+        <td><%= link_to 'Show', earning_rule %></td>
+        <td><%= link_to 'Edit', edit_earning_rule_path(earning_rule) %></td>
+        <td><%= link_to 'Destroy', earning_rule, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Earning Rule', new_earning_rule_path %>

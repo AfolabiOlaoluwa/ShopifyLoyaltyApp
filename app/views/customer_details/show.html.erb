@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Earning rule:</strong>
+  <%= @customer_detail.earning_rule_id %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @customer_detail.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @customer_detail.email %>
+</p>
+
+<p>
+  <strong>Point balance:</strong>
+  <%= @customer_detail.point_balance %>
+</p>
+
+<p>
+  <strong>Event:</strong>
+  <%= @customer_detail.event %>
+</p>
+
+<%= link_to 'Edit', edit_customer_detail_path(@customer_detail) %> |
+<%= link_to 'Back', customer_details_path %>

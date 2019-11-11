@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @earning_rule.name %>
+</p>
+
+<p>
+  <strong>Point:</strong>
+  <%= @earning_rule.point %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @earning_rule.status %>
+</p>
+
+<%= link_to 'Edit', edit_earning_rule_path(@earning_rule) %> |
+<%= link_to 'Back', earning_rules_path %>
