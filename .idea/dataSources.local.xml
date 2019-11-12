@@ -9,5 +9,13 @@
       <secret-storage>master_key</secret-storage>
       <introspection-schemas>ShopifyLoyaltyApp_development:*</introspection-schemas>
     </data-source>
+    <data-source name="postgres@localhost [2]" uuid="12b0e0cf-3d02-45ad-9b7f-cf4506c24f99">
+      <database-info product="PostgreSQL" version="9.6.5" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="9.6.5" exact-driver-version="42.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <introspection-schemas>ShopifyLoyaltyApp_development:*|ShopifyLoyaltyApp_production:*</introspection-schemas>
+    </data-source>
   </component>
 </project>

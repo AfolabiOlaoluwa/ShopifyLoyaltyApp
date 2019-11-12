@@ -1,12 +1,7 @@
 <div class="container mt-5">
   <%= simple_form_for earning_rule do |f| %>
     <div class="row align-items-center">
-      <div class="col-6 mt-1">
-        <h5 class="active-event-title">
-          <%= t('earning_rule_page.table_heading.title') %>
-        </h5>
-      </div>
-
+      <div class="col-6"></div>
       <div class="col-6">
         <div class="mb-3">
           <div class="form-actions">
@@ -22,7 +17,7 @@
       <div class="col-sm-8 mb-3">
         <div class="card border-secondary">
           <div class="card-body">
-            <h5 class="card-title">Earning Name</h5>
+            <h5 class="card-title"><%= t('earning_rule_page.form.name_heading') %></h5>
             <div class="form-inputs">
               <%= f.input :name %>
             </div>
@@ -33,8 +28,8 @@
       <div class="col-sm-4 d-none d-md-block">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Summary</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <h5 class="card-title"><%= t('earning_rule_page.form.hint_heading') %></h5>
+            <p class="card-text"><%= t('earning_rule_page.form.hint_text') %></p>
           </div>
         </div>
       </div>
@@ -44,7 +39,7 @@
       <div class="col-sm-8 mb-3">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Earning Value</h5>
+            <h5 class="card-title"><%= t('earning_rule_page.form.point_heading') %></h5>
             <div class="form-inputs">
               <%= f.input :point %>
             </div>
@@ -57,11 +52,15 @@
       <div class="col-sm-8 mb-3">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Earning Status</h5>
+            <h5 class="card-title"><%= t('earning_rule_page.form.checkbox_heading') %></h5>
             <div class="form-inputs">
-              <%= f.check_box :status %>
+              <%= f.check_box :status, as: :boolean, checked_value: true, unchecked_value: false %>
+              <span><%= t('earning_rule_page.form.checkbox_text') %></span>
             </div>
           </div>
+        </div>
+        <div class="card-footer text-muted">
+          <p><%= t('earning_rule_page.form.muted_text') %></p>
         </div>
       </div>
     </div>

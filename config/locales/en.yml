@@ -1,5 +1,15 @@
 en:
   earning_rule_page:
+    form:
+      title: "Create Rule"
+      submit: "Save"
+      muted_text: "Make sure to check this button to enable the Earning Rule"
+      checkbox_heading: "Earning Status"
+      checkbox_text: "Enable"
+      point_heading: "Earning Value"
+      name_heading: "Earning Name"
+      hint_heading: "Hint"
+      hint_text: "Creating and enabling this rule will award points to customers based on each amount they spend"
     table_heading:
       title: "Earning Rules"
       button_labels:
