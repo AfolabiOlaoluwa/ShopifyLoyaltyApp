@@ -1,11 +1,12 @@
 <div class="container mt-5">
-  <%= link_to 'Back', earning_rules_path %>
-
   <div class="row align-items-center">
-    <div class="col-6 mt-1">
-      <h5 class="active-event-title">
+    <div class="col-6">
+      <h5>
         <%= t('earning_rule_page.edit_form.title') %>
       </h5>
+    </div>
+    <div class="col-6">
+      <%= link_to 'Back', earning_rules_path, class: "btn btn-info btn-sm float-right" %>
     </div>
   </div>
 </div>

@@ -3,7 +3,7 @@
 class EarningRulesController < ApplicationController
   include StrictQueries::Concern
 
-  before_action :set_earning_rule, only: %i[edit update destroy]
+  before_action :set_earning_rule, only: %i[show edit update destroy]
 
   def index
     @earning_rules = EarningRule.all.load

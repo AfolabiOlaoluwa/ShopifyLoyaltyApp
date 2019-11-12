@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f50433-84d2-46f2-acd3-9ade5176f4db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/earning_rules_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/earning_rules_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/earning_rules/_earning_rule.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/earning_rules/_earning_rule.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/earning_rules/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/earning_rules/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/earning_rules/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/earning_rules/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/earning_rules/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/earning_rules/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/earning_rules/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/earning_rules/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/earning_rules/show.html.erb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@Production__ShopifyLoyaltyApp.rcov" NAME="Production: ShopifyLoyaltyApp Coverage Results" MODIFIED="1573552427667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
+    <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@Production__ShopifyLoyaltyApp.rcov" NAME="Production: ShopifyLoyaltyApp Coverage Results" MODIFIED="1573556520076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -125,26 +123,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/earning_rules/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/earning_rules_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+            <state relative-caret-position="194">
+              <caret line="61" column="61" lean-forward="true" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/earning_rules/show.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/views/earning_rules/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="138">
+              <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/earning_rules/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/earning_rules_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -223,9 +230,7 @@
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/shared/_flash_messages.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/earning_rules/new.html.erb" />
         <option value="$PROJECT_DIR$/app/models/earning_rule.rb" />
-        <option value="$PROJECT_DIR$/app/views/earning_rules/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/concerns/strict_queries.rb" />
         <option value="$PROJECT_DIR$/app/views/earning_rules/destroy.js.erb" />
         <option value="$PROJECT_DIR$/config/locales/en.yml" />
@@ -234,6 +239,8 @@
         <option value="$PROJECT_DIR$/app/views/earning_rules/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/earning_rules/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/earning_rules_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/earning_rules/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/earning_rules/edit.html.erb" />
       </list>
     </option>
   </component>
@@ -454,24 +461,24 @@
       <updated>1573120469468</updated>
       <workItem from="1573120473196" duration="35904000" />
       <workItem from="1573328295646" duration="56000" />
-      <workItem from="1573329297756" duration="62513000" />
+      <workItem from="1573329297756" duration="64612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98473000" />
+    <option name="totallyTimeSpent" value="100572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.18070818" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.18070818" />
       <window_info id="Structure" order="1" sideWeight="0.5010142" side_tool="true" weight="0.21245421" />
       <window_info id="Favorites" order="2" sideWeight="0.5016234" side_tool="true" weight="0.21245421" />
       <window_info anchor="bottom" id="Database Console" weight="0.32921812" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4547325" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4547325" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36625513" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -764,23 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/earning_rules/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="n#t#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/earning_rules/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
@@ -834,10 +824,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/earning_rules/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/earning_rules_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
+        <state relative-caret-position="155">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -848,10 +838,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/earning_rules_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/earning_rules/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        <state relative-caret-position="194">
+          <caret line="61" column="61" lean-forward="true" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/earning_rules/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/earning_rules/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>
