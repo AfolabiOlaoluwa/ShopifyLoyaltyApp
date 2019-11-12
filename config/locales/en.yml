@@ -20,5 +20,5 @@ en:
         delete: "Delete"
       messages:
         edit: ""
-        delete: "Are you sure?"
+        delete: "Are you sure you want to delete this?"
 

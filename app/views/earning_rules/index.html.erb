@@ -8,8 +8,10 @@
 
 <%= render 'shared/home_banner_section' %>
 
-<section class="mt-5">
+<section class="mt-5 mb-3">
   <div class="container">
+    <%= flash_messages_for(@earning_rule) %>
+
     <div class="row align-items-center">
       <div class="col-6 mt-1">
         <h5 class="active-event-title">
