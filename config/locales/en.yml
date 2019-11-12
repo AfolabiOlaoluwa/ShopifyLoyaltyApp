@@ -10,6 +10,8 @@ en:
       name_heading: "Earning Name"
       hint_heading: "Hint"
       hint_text: "Creating and enabling this rule will award points to customers based on each amount they spend"
+    edit_form:
+      title: "Edit Rule"
     table_heading:
       title: "Earning Rules"
       button_labels:

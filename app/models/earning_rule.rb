@@ -3,5 +3,5 @@ class EarningRule < ApplicationRecord
 
   validates :name, presence: true
   validates :point, presence: true
-  validates :status, presence: true
+  # validates :status, presence: true
 end
