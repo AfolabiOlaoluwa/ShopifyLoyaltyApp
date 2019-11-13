@@ -1,6 +1,7 @@
 <component name="ProjectDictionaryState">
   <dictionary name="tiwa">
     <words>
+      <w>authenticatable</w>
       <w>bootsnap</w>
       <w>byebug</w>
       <w>capybara</w>
@@ -8,6 +9,9 @@
       <w>jbuilder</w>
       <w>omni</w>
       <w>omniauth</w>
+      <w>pagy</w>
+      <w>registerable</w>
+      <w>rememberable</w>
       <w>shopify</w>
       <w>turbolinks</w>
       <w>webdrivers</w>

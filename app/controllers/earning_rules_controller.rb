@@ -4,21 +4,22 @@ class EarningRulesController < ApplicationController
   include StrictQueries::Concern
 
   before_action :set_earning_rule, only: %i[show edit update destroy]
+  before_action :authenticate_user!
 
   def index
-    @earning_rules = EarningRule.all.load
+    @earning_rules = current_user.earning_rules.load
   end
 
   def show; end
 
   def new
-    @earning_rule = EarningRule.new
+    @earning_rule = current_user.earning_rules.new
   end
 
   def edit; end
 
   def create
-    @earning_rule = EarningRule.new(earning_rule_params)
+    @earning_rule = current_user.earning_rules.new(earning_rule_params)
 
     respond_to do |format|
       if @earning_rule.save

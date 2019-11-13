@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'boot'
 
 require 'rails/all'
@@ -17,6 +19,15 @@ module ShopifyLoyaltyApp
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
+
+    config.to_prepare do
+      Devise::SessionsController.layout 'embedded_app'
+      Devise::RegistrationsController.layout 'embedded_app'
+      Devise::ConfirmationsController.layout 'embedded_app'
+      Devise::OmniauthCallbacksController.layout 'embedded_app'
+      Devise::UnlocksController.layout 'embedded_app'
+      Devise::PasswordsController.layout 'embedded_app'
+    end
 
     config.exceptions_app = ->(env) { ExceptionsController.action(:show).call(env) }
   end
