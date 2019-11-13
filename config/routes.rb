@@ -7,6 +7,7 @@ Rails.application.routes.draw do
     unlock: 'users/unlock',
     passwords: 'users/passwords',
     confirmations: 'users/confirmations'
+    # omniauth_callbacks: 'users/omniauth_callbacks'
   }
 
   resources :customer_details
