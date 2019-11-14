@@ -5,14 +5,21 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.2'
 
+gem 'devise'
+gem 'dotenv-rails'
 gem 'jbuilder', '~> 2.7'
+gem 'pagy', '~> 3.5', '>= 3.5.1'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 4.1'
 gem 'rails', '~> 6.0.1'
+gem 'redis', '~> 4.0'
 gem 'sass-rails', '>= 6'
+gem 'shopify_app', '~> 11.3'
+gem 'sidekiq'
+gem 'simple_form'
+gem 'sprockets', '~> 3.0'
 gem 'turbolinks', '~> 5'
 gem 'webpacker', '~> 4.0'
-# gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -39,10 +46,3 @@ group :test do
 end
 
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
-
-gem 'devise'
-gem 'dotenv-rails'
-gem 'pagy', '~> 3.5', '>= 3.5.1'
-gem 'shopify_app', '~> 11.3'
-gem 'simple_form'
-gem 'sprockets', '~> 3.0'

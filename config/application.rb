@@ -30,5 +30,8 @@ module ShopifyLoyaltyApp
     end
 
     config.exceptions_app = ->(env) { ExceptionsController.action(:show).call(env) }
+
+    config.active_job.queue_adapter = :sidekiq
+    # config.active_job.queue_adapter = Rails.env.production? ? :sidekiq : :async
   end
 end

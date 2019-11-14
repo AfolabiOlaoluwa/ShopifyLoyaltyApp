@@ -13,6 +13,7 @@
       <w>registerable</w>
       <w>rememberable</w>
       <w>shopify</w>
+      <w>sidekiq</w>
       <w>turbolinks</w>
       <w>webdrivers</w>
       <w>webhook</w>
