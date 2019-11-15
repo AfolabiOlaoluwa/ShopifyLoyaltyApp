@@ -16,7 +16,9 @@ Rails.application.routes.draw do
   resources :customer_details
   resources :earning_rules
 
-  root to: 'earning_rules#index'
+  # root to: 'earning_rules#index'
+  root to: 'home#index'
+  # get '/home', to: 'home#index'
 
   mount ShopifyApp::Engine, at: '/'
 
@@ -25,14 +27,9 @@ Rails.application.routes.draw do
   controller :mandatory_webhooks do
     post '/webhooks/shop_redact' => :shop_redact
     post '/webhooks/customers_redact' => :customer_redact
-    post '/webhooks/customers_data_request' => :customer_data_request
+    post '/webhooks/customers_data_request' => :customers_data_request
   end
 
-  # post '/webhooks/orders_create', to: 'custom_webhooks#orders_create'
-  # post '/webhooks/orders_update', to: 'custom_webhooks#orders_update'
-  # post '/webhooks/orders_paid', to: 'custom_webhooks#orders_paid'
-  #
-  # post '/webhooks/orders_create', :to => 'custom_webhooks#orders_create'
-  # post '/webhooks/orders_update', :to => 'custom_webhooks#orders_update'
-  # post '/webhooks/orders_paid', :to => 'custom_webhooks#orders_paid'
+  post '/webhooks/orders_fulfilled', to: 'order_webhooks#orders_fulfilled'
+  post '/webhooks/orders_paid', to: 'order_webhooks#orders_paid'
 end

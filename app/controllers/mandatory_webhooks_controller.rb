@@ -9,15 +9,15 @@ class MandatoryWebhooksController < ApplicationController
     head :no_content
   end
 
-  def customer_redact
+  def customers_redact
     params.permit!
-    CustomerRedactJob.perform_later(shop_domain: shop_domain, webhook: webhook_params.to_h)
+    CustomersRedactJob.perform_later(shop_domain: shop_domain, webhook: webhook_params.to_h)
     head :no_content
   end
 
-  def customer_data_request
+  def customers_data_request
     params.permit!
-    CustomerDataRequestJob.perform_later(shop_domain: shop_domain, webhook: webhook_params.to_h)
+    CustomersDataRequestJob.perform_later(shop_domain: shop_domain, webhook: webhook_params.to_h)
     head :no_content
   end
 
