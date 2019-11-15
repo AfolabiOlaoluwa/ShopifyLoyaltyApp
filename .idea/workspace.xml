@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19f50433-84d2-46f2-acd3-9ade5176f4db" name="Default Changelist" comment="" />
+    <list default="true" id="19f50433-84d2-46f2-acd3-9ade5176f4db" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cable.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/cable.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/sidekiq.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/sidekiq.rb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,11 +83,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/initializers/sidekiq.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+            <state relative-caret-position="184">
+              <caret line="8" column="14" selection-start-line="8" selection-end-line="8" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/cable.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -138,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/earning_rules/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/earning_rules/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/earning_rules/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/earning_rules/edit.html.erb" />
@@ -174,8 +195,6 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/jobs/shop_redact_job.rb" />
         <option value="$PROJECT_DIR$/config/sidekiq.yml" />
-        <option value="$PROJECT_DIR$/config/initializers/sidekiq.rb" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
         <option value="$PROJECT_DIR$/app/jobs/customer_data_request_job.rb" />
@@ -189,6 +208,9 @@
         <option value="$PROJECT_DIR$/app/jobs/orders_paid_job.rb" />
         <option value="$PROJECT_DIR$/app/jobs/customers_redact_job.rb" />
         <option value="$PROJECT_DIR$/config/initializers/shopify_app.rb" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/config/initializers/sidekiq.rb" />
+        <option value="$PROJECT_DIR$/config/cable.yml" />
       </list>
     </option>
   </component>
@@ -232,6 +254,11 @@
               <item name="ShopifyLoyaltyApp" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="jobs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShopifyLoyaltyApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShopifyLoyaltyApp" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShopifyLoyaltyApp" type="b2602c69:ProjectViewProjectNode" />
@@ -384,18 +411,18 @@
       <updated>1573120469468</updated>
       <workItem from="1573120473196" duration="35904000" />
       <workItem from="1573328295646" duration="56000" />
-      <workItem from="1573329297756" duration="137882000" />
+      <workItem from="1573329297756" duration="139305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173842000" />
+    <option name="totallyTimeSpent" value="175265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.23748474" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.23748474" />
       <window_info id="Structure" order="1" sideWeight="0.5010142" side_tool="true" weight="0.21245421" />
       <window_info id="Favorites" order="2" sideWeight="0.5016234" side_tool="true" weight="0.21245421" />
       <window_info anchor="bottom" id="Database Console" weight="0.32921812" />
@@ -409,7 +436,7 @@
       <window_info anchor="bottom" id="Docker" order="7" weight="0.32921812" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32921812" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3919753" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3919753" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -443,13 +470,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/users/confirmations_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/sessions/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -676,13 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/sidekiq.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/mandatory_webhooks_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
@@ -751,10 +764,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/sidekiq.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        <state relative-caret-position="184">
+          <caret line="8" column="14" selection-start-line="8" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/cable.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
         </state>
       </provider>
     </entry>
