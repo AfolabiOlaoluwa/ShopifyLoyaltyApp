@@ -9,6 +9,7 @@
 
 production:
   :concurrency: 25
+  :size: 7
 
 staging:
   :concurrency: 15
