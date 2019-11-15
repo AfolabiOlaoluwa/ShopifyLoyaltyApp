@@ -13,12 +13,14 @@ ShopifyApp.configure do |config|
   config.webhooks = [
     {
       topic: 'orders/fulfilled',
-      address: 'https://6338c39e.ngrok.io/webhooks/orders_fulfilled',
+      # address: 'https://6338c39e.ngrok.io/webhooks/orders_fulfilled',
+      address: 'https://fera-loyalty.herokuapp.com/webhooks/orders_fulfilled',
       format: 'json'
     },
     {
       topic: 'orders/paid',
-      address: 'https://6338c39e.ngrok.io/webhooks/orders_paid',
+      # address: 'https://6338c39e.ngrok.io/webhooks/orders_paid',
+      address: 'https://fera-loyalty.herokuapp.com/webhooks/orders_paid',
       format: 'json'
     }
   ]
