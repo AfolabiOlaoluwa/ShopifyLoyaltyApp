@@ -2,56 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f50433-84d2-46f2-acd3-9ade5176f4db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ShopifyLoyaltyApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ShopifyLoyaltyApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12b0e0cf-3d02-45ad-9b7f-cf4506c24f99.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12b0e0cf-3d02-45ad-9b7f-cf4506c24f99/storage_v2/_src_/database/ShopifyLoyaltyApp_development.vb4MRQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12b0e0cf-3d02-45ad-9b7f-cf4506c24f99/storage_v2/_src_/database/ShopifyLoyaltyApp_development.vb4MRQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12b0e0cf-3d02-45ad-9b7f-cf4506c24f99/storage_v2/_src_/database/ShopifyLoyaltyApp_development.vb4MRQ/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12b0e0cf-3d02-45ad-9b7f-cf4506c24f99/storage_v2/_src_/database/ShopifyLoyaltyApp_development.vb4MRQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12b0e0cf-3d02-45ad-9b7f-cf4506c24f99/storage_v2/_src_/database/ShopifyLoyaltyApp_development.vb4MRQ/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12b0e0cf-3d02-45ad-9b7f-cf4506c24f99/storage_v2/_src_/database/ShopifyLoyaltyApp_development.vb4MRQ/schema/pg_temp_1.zkWuFg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12b0e0cf-3d02-45ad-9b7f-cf4506c24f99/storage_v2/_src_/database/ShopifyLoyaltyApp_development.vb4MRQ/schema/pg_toast.33HYYw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12b0e0cf-3d02-45ad-9b7f-cf4506c24f99/storage_v2/_src_/database/ShopifyLoyaltyApp_development.vb4MRQ/schema/pg_toast_temp_1.5ixBaA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12b0e0cf-3d02-45ad-9b7f-cf4506c24f99/storage_v2/_src_/database/ShopifyLoyaltyApp_development.vb4MRQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12b0e0cf-3d02-45ad-9b7f-cf4506c24f99/storage_v2/_src_/database/ShopifyLoyaltyApp_production.95Y-zg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12b0e0cf-3d02-45ad-9b7f-cf4506c24f99/storage_v2/_src_/database/ShopifyLoyaltyApp_production.95Y-zg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12b0e0cf-3d02-45ad-9b7f-cf4506c24f99/storage_v2/_src_/database/ShopifyLoyaltyApp_production.95Y-zg/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12b0e0cf-3d02-45ad-9b7f-cf4506c24f99/storage_v2/_src_/database/ShopifyLoyaltyApp_production.95Y-zg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12b0e0cf-3d02-45ad-9b7f-cf4506c24f99/storage_v2/_src_/database/ShopifyLoyaltyApp_production.95Y-zg/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12b0e0cf-3d02-45ad-9b7f-cf4506c24f99/storage_v2/_src_/database/ShopifyLoyaltyApp_production.95Y-zg/schema/pg_temp_1.zkWuFg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12b0e0cf-3d02-45ad-9b7f-cf4506c24f99/storage_v2/_src_/database/ShopifyLoyaltyApp_production.95Y-zg/schema/pg_toast.33HYYw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12b0e0cf-3d02-45ad-9b7f-cf4506c24f99/storage_v2/_src_/database/ShopifyLoyaltyApp_production.95Y-zg/schema/pg_toast_temp_1.5ixBaA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12b0e0cf-3d02-45ad-9b7f-cf4506c24f99/storage_v2/_src_/database/ShopifyLoyaltyApp_production.95Y-zg/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/af9c1fcf-c3c3-4607-b1fc-edd7edb52c13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/af9c1fcf-c3c3-4607-b1fc-edd7edb52c13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/af9c1fcf-c3c3-4607-b1fc-edd7edb52c13/storage_v2/_src_/database/ShopifyLoyaltyApp_production.95Y-zg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/af9c1fcf-c3c3-4607-b1fc-edd7edb52c13/storage_v2/_src_/database/ShopifyLoyaltyApp_production.95Y-zg/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/af9c1fcf-c3c3-4607-b1fc-edd7edb52c13/storage_v2/_src_/database/ShopifyLoyaltyApp_production.95Y-zg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/af9c1fcf-c3c3-4607-b1fc-edd7edb52c13/storage_v2/_src_/database/ShopifyLoyaltyApp_production.95Y-zg/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/af9c1fcf-c3c3-4607-b1fc-edd7edb52c13/storage_v2/_src_/database/ShopifyLoyaltyApp_production.95Y-zg/schema/pg_temp_1.zkWuFg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/af9c1fcf-c3c3-4607-b1fc-edd7edb52c13/storage_v2/_src_/database/ShopifyLoyaltyApp_production.95Y-zg/schema/pg_toast.33HYYw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/af9c1fcf-c3c3-4607-b1fc-edd7edb52c13/storage_v2/_src_/database/ShopifyLoyaltyApp_production.95Y-zg/schema/pg_toast_temp_1.5ixBaA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/af9c1fcf-c3c3-4607-b1fc-edd7edb52c13/storage_v2/_src_/database/ShopifyLoyaltyApp_production.95Y-zg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/af9c1fcf-c3c3-4607-b1fc-edd7edb52c13/storage_v2/_src_/database/ShopifyLoyaltyApp_production.95Y-zg/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb732d17-c4db-4fc5-b5c1-4d0272ca2968.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb732d17-c4db-4fc5-b5c1-4d0272ca2968/storage_v2/_src_/database/ShopifyLoyaltyApp_development.vb4MRQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb732d17-c4db-4fc5-b5c1-4d0272ca2968/storage_v2/_src_/database/ShopifyLoyaltyApp_development.vb4MRQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb732d17-c4db-4fc5-b5c1-4d0272ca2968/storage_v2/_src_/database/ShopifyLoyaltyApp_development.vb4MRQ/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb732d17-c4db-4fc5-b5c1-4d0272ca2968/storage_v2/_src_/database/ShopifyLoyaltyApp_development.vb4MRQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb732d17-c4db-4fc5-b5c1-4d0272ca2968/storage_v2/_src_/database/ShopifyLoyaltyApp_development.vb4MRQ/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb732d17-c4db-4fc5-b5c1-4d0272ca2968/storage_v2/_src_/database/ShopifyLoyaltyApp_development.vb4MRQ/schema/pg_temp_1.zkWuFg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb732d17-c4db-4fc5-b5c1-4d0272ca2968/storage_v2/_src_/database/ShopifyLoyaltyApp_development.vb4MRQ/schema/pg_toast.33HYYw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb732d17-c4db-4fc5-b5c1-4d0272ca2968/storage_v2/_src_/database/ShopifyLoyaltyApp_development.vb4MRQ/schema/pg_toast_temp_1.5ixBaA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb732d17-c4db-4fc5-b5c1-4d0272ca2968/storage_v2/_src_/database/ShopifyLoyaltyApp_development.vb4MRQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/order_webhooks_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/order_webhooks_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/jobs/orders_fulfilled_job.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/jobs/orders_paid_job.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/jobs/orders_paid_job.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/shopify_app.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/shopify_app.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/sidekiq.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/sidekiq.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,11 +102,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+            <state relative-caret-position="246">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-135">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -164,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -528,16 +488,15 @@
       <workItem from="1573120473196" duration="35904000" />
       <workItem from="1573328295646" duration="56000" />
       <workItem from="1573329297756" duration="162894000" />
-      <workItem from="1573928046937" duration="2149000" />
+      <workItem from="1573928046937" duration="2553000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201003000" />
+    <option name="totallyTimeSpent" value="201407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.23992674" />
       <window_info id="Structure" order="1" sideWeight="0.5010142" side_tool="true" weight="0.21245421" />
@@ -545,14 +504,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.37448558" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.38580248" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38580248" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" weight="0.32921812" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32921812" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3919753" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3919753" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32921812" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -782,13 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/mandatory_webhooks_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -883,14 +835,21 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        <state relative-caret-position="246">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
