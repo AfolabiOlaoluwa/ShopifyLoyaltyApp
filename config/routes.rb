@@ -30,6 +30,6 @@ Rails.application.routes.draw do
     post '/webhooks/customers_data_request' => :customers_data_request
   end
 
-  post '/webhooks/orders_fulfilled', to: 'order_webhooks#orders_fulfilled'
+  # post '/webhooks/orders_fulfilled', to: 'order_webhooks#orders_fulfilled'
   post '/webhooks/orders_paid', to: 'order_webhooks#orders_paid'
 end

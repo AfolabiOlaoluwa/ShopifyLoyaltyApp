@@ -19,11 +19,19 @@
 <% end %>
 
 
-<h2>Products</h2>
+<!--<h2>Products</h2>-->
+
+<!--<ul>-->
+  <%# @products.each do |product| %>
+<!--    <li><%#= link_to product.title, "https://#{@shop_session.domain}/admin/products/#{product.id}", target: "_top" %></li>-->
+  <%# end %>
+<!--</ul>-->
+
+<h2>Orders</h2>
 
 <ul>
-  <% @products.each do |product| %>
-    <li><%= link_to product.title, "https://#{@shop_session.domain}/admin/products/#{product.id}", target: "_top" %></li>
+  <% @orders.each do |order| %>
+    <li><%= link_to order.to_json, "https://#{@shop_session.domain}/admin/orders/#{order.id}", target: "_top" %></li>
   <% end %>
 </ul>
 
