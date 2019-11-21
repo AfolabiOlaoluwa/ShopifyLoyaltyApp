@@ -1,35 +1,33 @@
-<p id="notice"><%= notice %></p>
+<div class="container">
+  <h1 class="active-event-title">
+    <!--Table Title Here-->
+    <%#= t('entry_details_page.table_heading.title') %>
+  </h1>
 
-<h1>Customer Details</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Earning rule</th>
-      <th>Name</th>
-      <th>Email</th>
-      <th>Point balance</th>
-      <th>Event</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @customer_details.each do |customer_detail| %>
+  <table class="table table-bordered table-hover">
+    <thead>
       <tr>
-        <td><%= customer_detail.earning_rule_id %></td>
-        <td><%= customer_detail.name %></td>
-        <td><%= customer_detail.email %></td>
-        <td><%= customer_detail.point_balance %></td>
-        <td><%= customer_detail.event %></td>
-        <td><%= link_to 'Show', customer_detail %></td>
-        <td><%= link_to 'Edit', edit_customer_detail_path(customer_detail) %></td>
-        <td><%= link_to 'Destroy', customer_detail, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>Point Balance</th>
       </tr>
-    <% end %>
-  </tbody>
-</table>
+    </thead>
 
-<br>
+    <tbody>
+      <%#= render @customer_details %>
+      <% @customer_details.each do |u| %>
+        <% present(u) do |customer_detail| %>
+          <tr>
+            <td><%= customer_detail.first_name %></td>
+            <td><%= customer_detail.last_name %></td>
+            <td><%= customer_detail.email %></td>
+            <td><%= customer_detail.point_balance %></td>
+          </tr>
+        <% end %>
+      <% end %>
+    </tbody>
+  </table>
 
-<%= link_to 'New Customer Detail', new_customer_detail_path %>
+  <%#== pagy_bootstrap_nav(@pagy).html_safe %>
+</div>

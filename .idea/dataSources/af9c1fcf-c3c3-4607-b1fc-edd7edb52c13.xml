@@ -5,25 +5,25 @@
       <ServerVersion>9.6.5</ServerVersion>
     </root>
     <database id="2" parent="1" name="ShopifyLoyaltyApp_development">
-      <ObjectId>55844</ObjectId>
-      <StateNumber>25709</StateNumber>
+      <ObjectId>64158</ObjectId>
+      <StateNumber>26229</StateNumber>
       <Owner>tiwa</Owner>
     </database>
     <database id="3" parent="1" name="ShopifyLoyaltyApp_production">
-      <ObjectId>56012</ObjectId>
-      <StateNumber>25760</StateNumber>
+      <ObjectId>64065</ObjectId>
+      <StateNumber>26198</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>25784</IntrospectionStateNumber>
+      <IntrospectionStateNumber>26289</IntrospectionStateNumber>
       <Visible>1</Visible>
-      <Relations>sequence|table|56013|56015|1
-sequence|table|56028|56030|1
-sequence|table|56043|56045|1
-sequence|table|56055|56057|1
+      <Relations>sequence|table|64066|64068|1
+sequence|table|64084|64086|1
+sequence|table|64100|64102|1
+sequence|table|64112|64114|1
 </Relations>
     </database>
     <database id="4" parent="1" name="ShopifyLoyaltyApp_test">
-      <ObjectId>55845</ObjectId>
-      <StateNumber>25710</StateNumber>
+      <ObjectId>64159</ObjectId>
+      <StateNumber>26230</StateNumber>
       <Owner>tiwa</Owner>
     </database>
     <database id="5" parent="1" name="TeachersTimeTracker_development">
@@ -68,20 +68,20 @@ sequence|table|56055|56057|1
       <Owner>postgres</Owner>
       <IntrospectionStateNumber>25522</IntrospectionStateNumber>
       <Current>1</Current>
-      <Relations>sequence|table|19926|19928|1
-sequence|table|19934|19936|1
-sequence|table|19950|19952|1
-sequence|table|19992|19994|1
-sequence|table|20002|20004|1
-sequence|table|20028|20030|1
-sequence|table|20036|20038|1
-sequence|table|20046|20048|1
-sequence|table|19905|19907|1
+      <Relations>sequence|table|20046|20048|1
 sequence|table|20077|20079|1
 sequence|table|20088|20090|1
 sequence|table|20096|20098|1
 sequence|table|20109|20111|1
+sequence|table|20028|20030|1
+sequence|table|20036|20038|1
+sequence|table|19992|19994|1
+sequence|table|20002|20004|1
 sequence|table|20117|20119|1
+sequence|table|19950|19952|1
+sequence|table|19926|19928|1
+sequence|table|19934|19936|1
+sequence|table|19905|19907|1
 </Relations>
     </database>
     <database id="13" parent="1" name="sandbox_development">
@@ -205,7 +205,6 @@ sequence|table|20117|20119|1
       <Comment>standard public schema</Comment>
       <StateNumber>662</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>25785</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -265,444 +264,5 @@ sequence|table|20117|20119|1
       <SchemaName>pg_catalog</SchemaName>
       <SchemaId>11</SchemaId>
     </extension>
-    <sequence id="40" parent="32" name="customer_details_id_seq">
-      <ObjectId>56013</ObjectId>
-      <Owner>postgres</Owner>
-      <StateNumber>25761</StateNumber>
-    </sequence>
-    <sequence id="41" parent="32" name="earning_rules_id_seq">
-      <ObjectId>56028</ObjectId>
-      <Owner>postgres</Owner>
-      <StateNumber>25766</StateNumber>
-    </sequence>
-    <sequence id="42" parent="32" name="shops_id_seq">
-      <ObjectId>56043</ObjectId>
-      <Owner>postgres</Owner>
-      <StateNumber>25771</StateNumber>
-    </sequence>
-    <sequence id="43" parent="32" name="users_id_seq">
-      <ObjectId>56055</ObjectId>
-      <Owner>postgres</Owner>
-      <StateNumber>25773</StateNumber>
-    </sequence>
-    <table id="44" parent="32" name="ar_internal_metadata">
-      <ObjectId>56088</ObjectId>
-      <Owner>postgres</Owner>
-      <StateNumber>25781</StateNumber>
-    </table>
-    <table id="45" parent="32" name="customer_details">
-      <ObjectId>56015</ObjectId>
-      <Owner>postgres</Owner>
-      <StateNumber>25776</StateNumber>
-    </table>
-    <table id="46" parent="32" name="earning_rules">
-      <ObjectId>56030</ObjectId>
-      <Owner>postgres</Owner>
-      <StateNumber>25777</StateNumber>
-    </table>
-    <table id="47" parent="32" name="schema_migrations">
-      <ObjectId>56080</ObjectId>
-      <Owner>postgres</Owner>
-      <StateNumber>25778</StateNumber>
-    </table>
-    <table id="48" parent="32" name="shops">
-      <ObjectId>56045</ObjectId>
-      <Owner>postgres</Owner>
-      <StateNumber>25771</StateNumber>
-    </table>
-    <table id="49" parent="32" name="users">
-      <ObjectId>56057</ObjectId>
-      <Owner>postgres</Owner>
-      <StateNumber>25777</StateNumber>
-    </table>
-    <column id="50" parent="44" name="key">
-      <Position>1</Position>
-      <DataType>varchar|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25781</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="51" parent="44" name="value">
-      <Position>2</Position>
-      <DataType>varchar|0s</DataType>
-      <StateNumber>25781</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="52" parent="44" name="created_at">
-      <Position>3</Position>
-      <DataType>timestamp(6)|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25781</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <column id="53" parent="44" name="updated_at">
-      <Position>4</Position>
-      <DataType>timestamp(6)|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25781</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <index id="54" parent="44" name="ar_internal_metadata_pkey">
-      <ObjectId>56094</ObjectId>
-      <StateNumber>25781</StateNumber>
-      <ColNames>key</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <key id="55" parent="44" name="ar_internal_metadata_pkey">
-      <ObjectId>56095</ObjectId>
-      <StateNumber>25781</StateNumber>
-      <ColNames>key</ColNames>
-      <UnderlyingIndexName>ar_internal_metadata_pkey</UnderlyingIndexName>
-      <Primary>1</Primary>
-    </key>
-    <column id="56" parent="45" name="id">
-      <Position>1</Position>
-      <DataType>bigint|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25761</StateNumber>
-      <DefaultExpression>nextval(&apos;customer_details_id_seq&apos;::regclass)</DefaultExpression>
-      <TypeId>20</TypeId>
-    </column>
-    <column id="57" parent="45" name="earning_rule_id">
-      <Position>2</Position>
-      <DataType>bigint|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25761</StateNumber>
-      <TypeId>20</TypeId>
-    </column>
-    <column id="58" parent="45" name="name">
-      <Position>3</Position>
-      <DataType>varchar|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25761</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="59" parent="45" name="email">
-      <Position>4</Position>
-      <DataType>varchar|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25761</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="60" parent="45" name="point_balance">
-      <Position>5</Position>
-      <DataType>numeric(8,2 digit)|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25761</StateNumber>
-      <TypeId>1700</TypeId>
-    </column>
-    <column id="61" parent="45" name="event">
-      <Position>6</Position>
-      <DataType>varchar|0s</DataType>
-      <StateNumber>25761</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="62" parent="45" name="created_at">
-      <Position>7</Position>
-      <DataType>timestamp(6)|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25761</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <column id="63" parent="45" name="updated_at">
-      <Position>8</Position>
-      <DataType>timestamp(6)|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25761</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <index id="64" parent="45" name="customer_details_pkey">
-      <ObjectId>56022</ObjectId>
-      <StateNumber>25761</StateNumber>
-      <ColNames>id</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <index id="65" parent="45" name="index_customer_details_on_email">
-      <ObjectId>56025</ObjectId>
-      <StateNumber>25763</StateNumber>
-      <ColNames>email</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <index id="66" parent="45" name="index_customer_details_on_earning_rule_id">
-      <ObjectId>56024</ObjectId>
-      <StateNumber>25762</StateNumber>
-      <ColNames>earning_rule_id</ColNames>
-    </index>
-    <index id="67" parent="45" name="index_customer_details_on_name">
-      <ObjectId>56026</ObjectId>
-      <StateNumber>25764</StateNumber>
-      <ColNames>name</ColNames>
-    </index>
-    <index id="68" parent="45" name="index_customer_details_on_point_balance">
-      <ObjectId>56027</ObjectId>
-      <StateNumber>25765</StateNumber>
-      <ColNames>point_balance</ColNames>
-    </index>
-    <key id="69" parent="45" name="customer_details_pkey">
-      <ObjectId>56023</ObjectId>
-      <StateNumber>25761</StateNumber>
-      <ColNames>id</ColNames>
-      <UnderlyingIndexName>customer_details_pkey</UnderlyingIndexName>
-      <Primary>1</Primary>
-    </key>
-    <foreign-key id="70" parent="45" name="fk_rails_2e42e6ee8d">
-      <ObjectId>56070</ObjectId>
-      <StateNumber>25776</StateNumber>
-      <ColNames>earning_rule_id</ColNames>
-      <RefTableId>56030</RefTableId>
-      <RefColPositions>1</RefColPositions>
-      <RefTableName>earning_rules</RefTableName>
-      <RefKeyName>earning_rules_pkey</RefKeyName>
-      <RefColNames>id</RefColNames>
-    </foreign-key>
-    <column id="71" parent="46" name="id">
-      <Position>1</Position>
-      <DataType>bigint|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25766</StateNumber>
-      <DefaultExpression>nextval(&apos;earning_rules_id_seq&apos;::regclass)</DefaultExpression>
-      <TypeId>20</TypeId>
-    </column>
-    <column id="72" parent="46" name="user_id">
-      <Position>2</Position>
-      <DataType>bigint|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25766</StateNumber>
-      <TypeId>20</TypeId>
-    </column>
-    <column id="73" parent="46" name="name">
-      <Position>3</Position>
-      <DataType>varchar|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25766</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="74" parent="46" name="point">
-      <Position>4</Position>
-      <DataType>integer|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25766</StateNumber>
-      <TypeId>23</TypeId>
-    </column>
-    <column id="75" parent="46" name="status">
-      <Position>5</Position>
-      <DataType>boolean|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25766</StateNumber>
-      <TypeId>16</TypeId>
-    </column>
-    <column id="76" parent="46" name="created_at">
-      <Position>6</Position>
-      <DataType>timestamp(6)|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25766</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <column id="77" parent="46" name="updated_at">
-      <Position>7</Position>
-      <DataType>timestamp(6)|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25766</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <index id="78" parent="46" name="earning_rules_pkey">
-      <ObjectId>56037</ObjectId>
-      <StateNumber>25766</StateNumber>
-      <ColNames>id</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <index id="79" parent="46" name="index_earning_rules_on_user_id">
-      <ObjectId>56042</ObjectId>
-      <StateNumber>25770</StateNumber>
-      <ColNames>user_id</ColNames>
-    </index>
-    <index id="80" parent="46" name="index_earning_rules_on_name">
-      <ObjectId>56039</ObjectId>
-      <StateNumber>25767</StateNumber>
-      <ColNames>name</ColNames>
-    </index>
-    <index id="81" parent="46" name="index_earning_rules_on_point">
-      <ObjectId>56040</ObjectId>
-      <StateNumber>25768</StateNumber>
-      <ColNames>point</ColNames>
-    </index>
-    <index id="82" parent="46" name="index_earning_rules_on_status">
-      <ObjectId>56041</ObjectId>
-      <StateNumber>25769</StateNumber>
-      <ColNames>status</ColNames>
-    </index>
-    <key id="83" parent="46" name="earning_rules_pkey">
-      <ObjectId>56038</ObjectId>
-      <StateNumber>25766</StateNumber>
-      <ColNames>id</ColNames>
-      <UnderlyingIndexName>earning_rules_pkey</UnderlyingIndexName>
-      <Primary>1</Primary>
-    </key>
-    <foreign-key id="84" parent="46" name="fk_rails_4fe8655cb7">
-      <ObjectId>56075</ObjectId>
-      <StateNumber>25777</StateNumber>
-      <ColNames>user_id</ColNames>
-      <RefTableId>56057</RefTableId>
-      <RefColPositions>1</RefColPositions>
-      <RefTableName>users</RefTableName>
-      <RefKeyName>users_pkey</RefKeyName>
-      <RefColNames>id</RefColNames>
-    </foreign-key>
-    <column id="85" parent="47" name="version">
-      <Position>1</Position>
-      <DataType>varchar|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25778</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <index id="86" parent="47" name="schema_migrations_pkey">
-      <ObjectId>56086</ObjectId>
-      <StateNumber>25778</StateNumber>
-      <ColNames>version</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <key id="87" parent="47" name="schema_migrations_pkey">
-      <ObjectId>56087</ObjectId>
-      <StateNumber>25778</StateNumber>
-      <ColNames>version</ColNames>
-      <UnderlyingIndexName>schema_migrations_pkey</UnderlyingIndexName>
-      <Primary>1</Primary>
-    </key>
-    <column id="88" parent="48" name="id">
-      <Position>1</Position>
-      <DataType>bigint|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25771</StateNumber>
-      <DefaultExpression>nextval(&apos;shops_id_seq&apos;::regclass)</DefaultExpression>
-      <TypeId>20</TypeId>
-    </column>
-    <column id="89" parent="48" name="shopify_domain">
-      <Position>2</Position>
-      <DataType>varchar|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25771</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="90" parent="48" name="shopify_token">
-      <Position>3</Position>
-      <DataType>varchar|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25771</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="91" parent="48" name="created_at">
-      <Position>4</Position>
-      <DataType>timestamp(6)|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25771</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <column id="92" parent="48" name="updated_at">
-      <Position>5</Position>
-      <DataType>timestamp(6)|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25771</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <index id="93" parent="48" name="shops_pkey">
-      <ObjectId>56052</ObjectId>
-      <StateNumber>25771</StateNumber>
-      <ColNames>id</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <index id="94" parent="48" name="index_shops_on_shopify_domain">
-      <ObjectId>56054</ObjectId>
-      <StateNumber>25772</StateNumber>
-      <ColNames>shopify_domain</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <key id="95" parent="48" name="shops_pkey">
-      <ObjectId>56053</ObjectId>
-      <StateNumber>25771</StateNumber>
-      <ColNames>id</ColNames>
-      <UnderlyingIndexName>shops_pkey</UnderlyingIndexName>
-      <Primary>1</Primary>
-    </key>
-    <column id="96" parent="49" name="id">
-      <Position>1</Position>
-      <DataType>bigint|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25773</StateNumber>
-      <DefaultExpression>nextval(&apos;users_id_seq&apos;::regclass)</DefaultExpression>
-      <TypeId>20</TypeId>
-    </column>
-    <column id="97" parent="49" name="email">
-      <Position>2</Position>
-      <DataType>varchar|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25773</StateNumber>
-      <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="98" parent="49" name="encrypted_password">
-      <Position>3</Position>
-      <DataType>varchar|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25773</StateNumber>
-      <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="99" parent="49" name="reset_password_token">
-      <Position>4</Position>
-      <DataType>varchar|0s</DataType>
-      <StateNumber>25773</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="100" parent="49" name="reset_password_sent_at">
-      <Position>5</Position>
-      <DataType>timestamp|0s</DataType>
-      <StateNumber>25773</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <column id="101" parent="49" name="remember_created_at">
-      <Position>6</Position>
-      <DataType>timestamp|0s</DataType>
-      <StateNumber>25773</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <column id="102" parent="49" name="created_at">
-      <Position>7</Position>
-      <DataType>timestamp(6)|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25773</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <column id="103" parent="49" name="updated_at">
-      <Position>8</Position>
-      <DataType>timestamp(6)|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>25773</StateNumber>
-      <TypeId>1114</TypeId>
-    </column>
-    <index id="104" parent="49" name="users_pkey">
-      <ObjectId>56066</ObjectId>
-      <StateNumber>25773</StateNumber>
-      <ColNames>id</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <index id="105" parent="49" name="index_users_on_email">
-      <ObjectId>56068</ObjectId>
-      <StateNumber>25774</StateNumber>
-      <ColNames>email</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <index id="106" parent="49" name="index_users_on_reset_password_token">
-      <ObjectId>56069</ObjectId>
-      <StateNumber>25775</StateNumber>
-      <ColNames>reset_password_token</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <key id="107" parent="49" name="users_pkey">
-      <ObjectId>56067</ObjectId>
-      <StateNumber>25773</StateNumber>
-      <ColNames>id</ColNames>
-      <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
-      <Primary>1</Primary>
-    </key>
   </database-model>
 </dataSource>

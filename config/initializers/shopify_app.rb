@@ -5,7 +5,6 @@ ShopifyApp.configure do |config|
   config.api_key = ENV['SHOPIFY_API_KEY']
   config.secret = ENV['SHOPIFY_API_SECRET']
   config.old_secret = ''
-  # config.scope = 'read_orders, write_orders, read_products'
   config.scope = 'read_orders'
   config.embedded_app = true
   config.after_authenticate_job = false
@@ -14,7 +13,8 @@ ShopifyApp.configure do |config|
   config.webhooks = [
     {
       topic: 'orders/paid',
-      address: 'https://fera-loyalty.herokuapp.com/webhooks/orders_paid',
+      address: 'https://c8322200.ngrok.io/webhooks/orders_paid', fields: %w[customer],
+      # address: 'https://fera-loyalty.herokuapp.com/webhooks/orders_paid',
       format: 'json'
     }
   ]

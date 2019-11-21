@@ -2,6 +2,7 @@
 
 class EarningRulesController < ApplicationController
   include StrictQueries::Concern
+  include ShopifyApp::Authenticated
 
   before_action :set_earning_rule, only: %i[show edit update destroy]
   before_action :authenticate_user!
@@ -20,6 +21,7 @@ class EarningRulesController < ApplicationController
 
   def create
     @earning_rule = current_user.earning_rules.new(earning_rule_params)
+    @earning_rule.set_shop
 
     respond_to do |format|
       if @earning_rule.save
@@ -60,6 +62,6 @@ class EarningRulesController < ApplicationController
   end
 
   def earning_rule_params
-    params.require(:earning_rule).permit(:name, :point, :status)
+    params.require(:earning_rule).permit(:user_id, :shop_id, :name, :point, :status)
   end
 end

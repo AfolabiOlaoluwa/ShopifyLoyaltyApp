@@ -5,7 +5,7 @@ class OrderWebhooksController < ApplicationController
 
   def orders_paid
     params.permit!
-    OrdersPaidJob.perform_later(shop_domain: shop_domain, webhook: webhook_params.to_h)
+    OrdersPaidJob.perform(shop_domain: shop_domain, webhook: webhook_params.to_h)
     head :no_content
   end
 

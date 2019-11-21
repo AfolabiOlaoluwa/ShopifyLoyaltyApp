@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 
   mount Sidekiq::Web => '/sidekiq'
 
+  mount ShopifyApp::Engine, at: '/'
+
   devise_for :users, controllers: {
     sessions: 'users/sessions',
     registrations: 'users/registrations',
@@ -13,14 +15,11 @@ Rails.application.routes.draw do
     confirmations: 'users/confirmations'
   }
 
-  resources :customer_details
+  get 'customer_details/index'
+
   resources :earning_rules
 
-  # root to: 'earning_rules#index'
-  root to: 'home#index'
-  # get '/home', to: 'home#index'
-
-  mount ShopifyApp::Engine, at: '/'
+  root to: 'earning_rules#index'
 
   get 'exceptions/show'
 
@@ -30,6 +29,17 @@ Rails.application.routes.draw do
     post '/webhooks/customers_data_request' => :customers_data_request
   end
 
-  # post '/webhooks/orders_fulfilled', to: 'order_webhooks#orders_fulfilled'
-  post '/webhooks/orders_paid', to: 'order_webhooks#orders_paid'
+  # resource :mandatory_webhooks, only: [] do
+  #   collection do
+  #     post :shop_redact
+  #     post :customer_redact
+  #     post :customers_data_request
+  #   end
+  # end
+
+  resources :webhooks, only: [] do
+    collection do
+      post :orders_paid
+    end
+  end
 end

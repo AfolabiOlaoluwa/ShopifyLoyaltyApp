@@ -16,21 +16,25 @@ ActiveRecord::Schema.define(version: 2019_11_11_095310) do
   enable_extension "plpgsql"
 
   create_table "customer_details", force: :cascade do |t|
-    t.bigint "earning_rule_id", null: false
-    t.string "name", null: false
+    t.bigint "shop_id", null: false
+    t.string "first_name", null: false
+    t.string "last_name", null: false
     t.string "email", null: false
-    t.decimal "point_balance", precision: 8, scale: 2, null: false
-    t.string "event"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.index ["earning_rule_id"], name: "index_customer_details_on_earning_rule_id"
+    t.decimal "amount_spent", precision: 16, scale: 2, null: false
+    t.decimal "point_balance", precision: 16, scale: 2, null: false
+    t.datetime "recorded_on"
+    t.index ["amount_spent"], name: "index_customer_details_on_amount_spent"
     t.index ["email"], name: "index_customer_details_on_email", unique: true
-    t.index ["name"], name: "index_customer_details_on_name"
+    t.index ["first_name"], name: "index_customer_details_on_first_name"
+    t.index ["last_name"], name: "index_customer_details_on_last_name"
     t.index ["point_balance"], name: "index_customer_details_on_point_balance"
+    t.index ["recorded_on"], name: "index_customer_details_on_recorded_on"
+    t.index ["shop_id"], name: "index_customer_details_on_shop_id"
   end
 
   create_table "earning_rules", force: :cascade do |t|
     t.bigint "user_id", null: false
+    t.bigint "shop_id", null: false
     t.string "name", null: false
     t.integer "point", null: false
     t.boolean "status", null: false
@@ -38,6 +42,7 @@ ActiveRecord::Schema.define(version: 2019_11_11_095310) do
     t.datetime "updated_at", precision: 6, null: false
     t.index ["name"], name: "index_earning_rules_on_name"
     t.index ["point"], name: "index_earning_rules_on_point"
+    t.index ["shop_id"], name: "index_earning_rules_on_shop_id"
     t.index ["status"], name: "index_earning_rules_on_status"
     t.index ["user_id"], name: "index_earning_rules_on_user_id"
   end
@@ -62,6 +67,7 @@ ActiveRecord::Schema.define(version: 2019_11_11_095310) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
-  add_foreign_key "customer_details", "earning_rules"
+  add_foreign_key "customer_details", "shops"
+  add_foreign_key "earning_rules", "shops"
   add_foreign_key "earning_rules", "users"
 end
