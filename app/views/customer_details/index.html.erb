@@ -15,17 +15,7 @@
     </thead>
 
     <tbody>
-      <%#= render @customer_details %>
-      <% @customer_details.each do |u| %>
-        <% present(u) do |customer_detail| %>
-          <tr>
-            <td><%= customer_detail.first_name %></td>
-            <td><%= customer_detail.last_name %></td>
-            <td><%= customer_detail.email %></td>
-            <td><%= customer_detail.point_balance %></td>
-          </tr>
-        <% end %>
-      <% end %>
+      <%= render @customer_details %>
     </tbody>
   </table>
 

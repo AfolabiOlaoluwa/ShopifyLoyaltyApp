@@ -11,7 +11,7 @@ class EarningRule < ApplicationRecord
   scope :order_rule, ->(shop) { where(shop: shop).where(status: 'true').where(name: 'Order').pick(:point) }
 
   def set_shop
-    self.shop = current_shop
+    self.shop_id = current_shop
   end
 
   private
