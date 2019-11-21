@@ -1,3 +1,11 @@
+<% content_for :javascript do %>
+  <script type="text/javascript">
+      ShopifyApp.ready(function(){
+          ShopifyApp.Bar.initialize({ title: "Customer Details" });
+      });
+  </script>
+<% end %>
+
 <div class="container">
   <h1 class="active-event-title">
     <!--Table Title Here-->

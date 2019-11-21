@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-class EarningRulesController < ApplicationController
+class EarningRulesController < AuthenticatedController
   include StrictQueries::Concern
-  include ShopifyApp::Authenticated
+  # include ShopifyApp::Authenticated
 
   before_action :set_earning_rule, only: %i[show edit update destroy]
   before_action :authenticate_user!
