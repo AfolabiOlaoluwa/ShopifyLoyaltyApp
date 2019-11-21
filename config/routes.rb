@@ -29,14 +29,6 @@ Rails.application.routes.draw do
     post '/webhooks/customers_data_request' => :customers_data_request
   end
 
-  # resource :mandatory_webhooks, only: [] do
-  #   collection do
-  #     post :shop_redact
-  #     post :customer_redact
-  #     post :customers_data_request
-  #   end
-  # end
-
   resources :webhooks, only: [] do
     collection do
       post :orders_paid

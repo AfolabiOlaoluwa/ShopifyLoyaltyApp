@@ -13,8 +13,7 @@ ShopifyApp.configure do |config|
   config.webhooks = [
     {
       topic: 'orders/paid',
-      address: 'https://c8322200.ngrok.io/webhooks/orders_paid', fields: %w[customer],
-      # address: 'https://fera-loyalty.herokuapp.com/webhooks/orders_paid',
+      address: ENV['APP_URL'], fields: %w[customer],
       format: 'json'
     }
   ]

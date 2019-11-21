@@ -1,6 +1,5 @@
 class ShopRedactJob < ActiveJob::Base
   def perform(shop_domain:, webhook:)
-    # webhook paylod: {"shop_id": "123456789","shop_domain": "shop-name.myshopify.com"}
     shop = Shop.find_by(shopify_domain: shop_domain)
 
     webhook.to_json
