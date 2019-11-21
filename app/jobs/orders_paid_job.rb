@@ -4,6 +4,7 @@ class OrdersPaidJob < ApplicationJob
 
   def perform(shop_domain:, webhook:)
     shop = Shop.find_by(shopify_domain: shop_domain)
+    return unless shop
 
     shop.with_shopify_session do
       customer = webhook['customer']
@@ -25,6 +26,8 @@ class OrdersPaidJob < ApplicationJob
   private
 
   def awarded_points(customer, shop)
+    return 1 unless EarningRule.order_rule(shop)
+
     (customer['total_spent']).to_i * EarningRule.order_rule(shop)
   end
 end
