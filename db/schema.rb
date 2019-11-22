@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 2019_11_11_095310) do
   enable_extension "plpgsql"
 
   create_table "customer_details", force: :cascade do |t|
+    t.bigint "user_id", null: false
     t.bigint "shop_id", null: false
     t.string "first_name", null: false
     t.string "last_name", null: false
@@ -30,6 +31,7 @@ ActiveRecord::Schema.define(version: 2019_11_11_095310) do
     t.index ["point_balance"], name: "index_customer_details_on_point_balance"
     t.index ["recorded_on"], name: "index_customer_details_on_recorded_on"
     t.index ["shop_id"], name: "index_customer_details_on_shop_id"
+    t.index ["user_id"], name: "index_customer_details_on_user_id"
   end
 
   create_table "earning_rules", force: :cascade do |t|
@@ -68,6 +70,7 @@ ActiveRecord::Schema.define(version: 2019_11_11_095310) do
   end
 
   add_foreign_key "customer_details", "shops"
+  add_foreign_key "customer_details", "users"
   add_foreign_key "earning_rules", "shops"
   add_foreign_key "earning_rules", "users"
 end

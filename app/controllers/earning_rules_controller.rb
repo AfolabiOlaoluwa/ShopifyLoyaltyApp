@@ -56,6 +56,11 @@ class EarningRulesController < AuthenticatedController
 
   private
 
+  # def set_current_shop
+  #   shop ||= ShopifyAPI::Shop.current.domain
+  #   @earning_rule = Shop.find_by(shopify_domain: shop)
+  # end
+
   def set_earning_rule
     @earning_rule = EarningRule.find(params[:id])
   end

@@ -4,6 +4,6 @@ class CustomerDetailsController < AuthenticatedController
   before_action :authenticate_user!
 
   def index
-    @customer_details = customer_detail.shops.load
+    @customer_details = current_user.customer_details.load
   end
 end

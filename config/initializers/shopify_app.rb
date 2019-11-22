@@ -13,7 +13,7 @@ ShopifyApp.configure do |config|
   config.webhooks = [
     {
       topic: 'orders/paid',
-      address: ENV['APP_URL'], fields: %w[customer],
+      address: ENV['PAID_ORDER_WEBHOOK_URL'], fields: %w[customer],
       format: 'json'
     }
   ]

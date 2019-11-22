@@ -10,6 +10,7 @@ class OrdersPaidJob < ApplicationJob
       customer = webhook['customer']
 
       payload = {
+        user_id: current_user,
         shop_id: shop.id,
         email: customer['email'],
         amount_spent: customer['total_spent'],

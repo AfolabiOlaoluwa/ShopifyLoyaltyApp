@@ -5,7 +5,7 @@ class EarningRule < ApplicationRecord
   belongs_to :user
   belongs_to :shop
 
-  validates :name, presence: true, uniqueness: true
+  validates :name, presence: true
   validates :point, presence: true
 
   scope :order_rule, ->(shop) { where(shop: shop).where(status: 'true').where(name: 'Order').pick(:point) }
@@ -18,7 +18,6 @@ class EarningRule < ApplicationRecord
 
   def current_shop
     shop ||= ShopifyAPI::Shop.current.domain
-
     Shop.find_by(shopify_domain: shop)
   end
 end

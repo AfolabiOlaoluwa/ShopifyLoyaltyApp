@@ -17,7 +17,7 @@ Rails.application.routes.draw do
 
   get 'customer_details/index'
 
-  resources :earning_rules
+  resources :earning_rules, except: :index
 
   root to: 'earning_rules#index'
 

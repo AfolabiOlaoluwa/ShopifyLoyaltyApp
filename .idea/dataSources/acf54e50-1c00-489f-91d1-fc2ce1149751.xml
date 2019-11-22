@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="postgres@localhost">
+<dataSource name="postgres@localhost [3]">
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.14">
     <root id="1">
       <ServerVersion>9.6.5</ServerVersion>
@@ -13,18 +13,18 @@
       <ObjectId>64065</ObjectId>
       <StateNumber>26198</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>26318</IntrospectionStateNumber>
-      <Visible>1</Visible>
-      <Relations>sequence|table|64084|64086|1
-sequence|table|64100|64102|1
-sequence|table|64112|64114|1
-sequence|table|64355|64357|1
-</Relations>
     </database>
     <database id="4" parent="1" name="ShopifyLoyaltyApp_test">
-      <ObjectId>64159</ObjectId>
-      <StateNumber>26230</StateNumber>
+      <ObjectId>64863</ObjectId>
+      <StateNumber>26407</StateNumber>
       <Owner>tiwa</Owner>
+      <IntrospectionStateNumber>26415</IntrospectionStateNumber>
+      <Visible>1</Visible>
+      <Relations>sequence|table|64880|64882|1
+sequence|table|64892|64894|1
+sequence|table|64907|64909|1
+sequence|table|64933|64935|1
+</Relations>
     </database>
     <database id="5" parent="1" name="TeachersTimeTracker_development">
       <ObjectId>34332</ObjectId>
@@ -66,22 +66,22 @@ sequence|table|64355|64357|1
       <Comment>default administrative connection database</Comment>
       <StateNumber>863</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>25522</IntrospectionStateNumber>
+      <IntrospectionStateNumber>26391</IntrospectionStateNumber>
       <Current>1</Current>
-      <Relations>sequence|table|20046|20048|1
+      <Relations>sequence|table|19905|19907|1
+sequence|table|19926|19928|1
+sequence|table|19934|19936|1
+sequence|table|19950|19952|1
+sequence|table|19992|19994|1
+sequence|table|20002|20004|1
+sequence|table|20028|20030|1
+sequence|table|20036|20038|1
+sequence|table|20046|20048|1
 sequence|table|20077|20079|1
 sequence|table|20088|20090|1
 sequence|table|20096|20098|1
 sequence|table|20109|20111|1
-sequence|table|20028|20030|1
-sequence|table|20036|20038|1
-sequence|table|19992|19994|1
-sequence|table|20002|20004|1
 sequence|table|20117|20119|1
-sequence|table|19950|19952|1
-sequence|table|19926|19928|1
-sequence|table|19934|19936|1
-sequence|table|19905|19907|1
 </Relations>
     </database>
     <database id="13" parent="1" name="sandbox_development">
@@ -168,48 +168,48 @@ sequence|table|19905|19907|1
       <CanLogin>1</CanLogin>
       <ConnectionLimit>-1</ConnectionLimit>
     </role>
-    <schema id="27" parent="3" name="information_schema">
+    <schema id="27" parent="4" name="information_schema">
       <ObjectId>12381</ObjectId>
       <StateNumber>664</StateNumber>
       <Owner>postgres</Owner>
       <Visible>1</Visible>
     </schema>
-    <schema id="28" parent="3" name="pg_catalog">
+    <schema id="28" parent="4" name="pg_catalog">
       <ObjectId>11</ObjectId>
       <Comment>system catalog schema</Comment>
       <StateNumber>661</StateNumber>
       <Owner>postgres</Owner>
       <Visible>1</Visible>
     </schema>
-    <schema id="29" parent="3" name="pg_temp_1">
+    <schema id="29" parent="4" name="pg_temp_1">
       <ObjectId>11848</ObjectId>
       <StateNumber>103</StateNumber>
       <Owner>postgres</Owner>
       <Visible>1</Visible>
     </schema>
-    <schema id="30" parent="3" name="pg_toast">
+    <schema id="30" parent="4" name="pg_toast">
       <ObjectId>99</ObjectId>
       <Comment>reserved schema for TOAST tables</Comment>
       <StateNumber>1</StateNumber>
       <Owner>postgres</Owner>
       <Visible>1</Visible>
     </schema>
-    <schema id="31" parent="3" name="pg_toast_temp_1">
+    <schema id="31" parent="4" name="pg_toast_temp_1">
       <ObjectId>11849</ObjectId>
       <StateNumber>103</StateNumber>
       <Owner>postgres</Owner>
       <Visible>1</Visible>
     </schema>
-    <schema id="32" parent="3" name="public">
+    <schema id="32" parent="4" name="public">
       <ObjectId>2200</ObjectId>
       <Comment>standard public schema</Comment>
       <StateNumber>662</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>26319</IntrospectionStateNumber>
+      <IntrospectionStateNumber>26416</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
-    <access-method id="33" parent="3" name="btree">
+    <access-method id="33" parent="4" name="btree">
       <ObjectId>403</ObjectId>
       <Comment>b-tree index access method</Comment>
       <StateNumber>1</StateNumber>
@@ -217,7 +217,7 @@ sequence|table|19905|19907|1
       <HandlerId>330</HandlerId>
       <Type>index</Type>
     </access-method>
-    <access-method id="34" parent="3" name="hash">
+    <access-method id="34" parent="4" name="hash">
       <ObjectId>405</ObjectId>
       <Comment>hash index access method</Comment>
       <StateNumber>1</StateNumber>
@@ -225,7 +225,7 @@ sequence|table|19905|19907|1
       <HandlerId>331</HandlerId>
       <Type>index</Type>
     </access-method>
-    <access-method id="35" parent="3" name="gist">
+    <access-method id="35" parent="4" name="gist">
       <ObjectId>783</ObjectId>
       <Comment>GiST index access method</Comment>
       <StateNumber>1</StateNumber>
@@ -233,7 +233,7 @@ sequence|table|19905|19907|1
       <HandlerId>332</HandlerId>
       <Type>index</Type>
     </access-method>
-    <access-method id="36" parent="3" name="gin">
+    <access-method id="36" parent="4" name="gin">
       <ObjectId>2742</ObjectId>
       <Comment>GIN index access method</Comment>
       <StateNumber>1</StateNumber>
@@ -241,7 +241,7 @@ sequence|table|19905|19907|1
       <HandlerId>333</HandlerId>
       <Type>index</Type>
     </access-method>
-    <access-method id="37" parent="3" name="spgist">
+    <access-method id="37" parent="4" name="spgist">
       <ObjectId>4000</ObjectId>
       <Comment>SP-GiST index access method</Comment>
       <StateNumber>1</StateNumber>
@@ -249,7 +249,7 @@ sequence|table|19905|19907|1
       <HandlerId>334</HandlerId>
       <Type>index</Type>
     </access-method>
-    <access-method id="38" parent="3" name="brin">
+    <access-method id="38" parent="4" name="brin">
       <ObjectId>3580</ObjectId>
       <Comment>block range index (BRIN) access method</Comment>
       <StateNumber>1</StateNumber>
@@ -257,7 +257,7 @@ sequence|table|19905|19907|1
       <HandlerId>335</HandlerId>
       <Type>index</Type>
     </access-method>
-    <extension id="39" parent="3" name="plpgsql">
+    <extension id="39" parent="4" name="plpgsql">
       <ObjectId>12655</ObjectId>
       <Comment>PL/pgSQL procedural language</Comment>
       <StateNumber>816</StateNumber>
@@ -266,91 +266,99 @@ sequence|table|19905|19907|1
       <SchemaId>11</SchemaId>
     </extension>
     <sequence id="40" parent="32" name="customer_details_id_seq">
-      <ObjectId>64355</ObjectId>
-      <Owner>postgres</Owner>
-      <StateNumber>26315</StateNumber>
+      <ObjectId>64933</ObjectId>
+      <Owner>tiwa</Owner>
+      <StateNumber>26413</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
     </sequence>
     <sequence id="41" parent="32" name="earning_rules_id_seq">
-      <ObjectId>64084</ObjectId>
-      <Owner>postgres</Owner>
-      <StateNumber>26207</StateNumber>
+      <ObjectId>64907</ObjectId>
+      <Owner>tiwa</Owner>
+      <StateNumber>26412</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
     </sequence>
     <sequence id="42" parent="32" name="shops_id_seq">
-      <ObjectId>64100</ObjectId>
-      <Owner>postgres</Owner>
-      <StateNumber>26213</StateNumber>
+      <ObjectId>64880</ObjectId>
+      <Owner>tiwa</Owner>
+      <StateNumber>26410</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
     </sequence>
     <sequence id="43" parent="32" name="users_id_seq">
-      <ObjectId>64112</ObjectId>
-      <Owner>postgres</Owner>
-      <StateNumber>26215</StateNumber>
+      <ObjectId>64892</ObjectId>
+      <Owner>tiwa</Owner>
+      <StateNumber>26411</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
     </sequence>
     <table id="44" parent="32" name="ar_internal_metadata">
-      <ObjectId>64150</ObjectId>
-      <Owner>postgres</Owner>
-      <StateNumber>26224</StateNumber>
+      <ObjectId>64872</ObjectId>
+      <Owner>tiwa</Owner>
+      <StateNumber>26409</StateNumber>
     </table>
     <table id="45" parent="32" name="customer_details">
-      <ObjectId>64357</ObjectId>
-      <Owner>postgres</Owner>
-      <StateNumber>26315</StateNumber>
+      <ObjectId>64935</ObjectId>
+      <Owner>tiwa</Owner>
+      <StateNumber>26413</StateNumber>
     </table>
     <table id="46" parent="32" name="earning_rules">
-      <ObjectId>64086</ObjectId>
-      <Owner>postgres</Owner>
-      <StateNumber>26220</StateNumber>
+      <ObjectId>64909</ObjectId>
+      <Owner>tiwa</Owner>
+      <StateNumber>26412</StateNumber>
     </table>
     <table id="47" parent="32" name="schema_migrations">
-      <ObjectId>64142</ObjectId>
-      <Owner>postgres</Owner>
-      <StateNumber>26221</StateNumber>
+      <ObjectId>64864</ObjectId>
+      <Owner>tiwa</Owner>
+      <StateNumber>26408</StateNumber>
     </table>
     <table id="48" parent="32" name="shops">
-      <ObjectId>64102</ObjectId>
-      <Owner>postgres</Owner>
-      <StateNumber>26315</StateNumber>
+      <ObjectId>64882</ObjectId>
+      <Owner>tiwa</Owner>
+      <StateNumber>26413</StateNumber>
     </table>
     <table id="49" parent="32" name="users">
-      <ObjectId>64114</ObjectId>
-      <Owner>postgres</Owner>
-      <StateNumber>26315</StateNumber>
+      <ObjectId>64894</ObjectId>
+      <Owner>tiwa</Owner>
+      <StateNumber>26413</StateNumber>
     </table>
     <column id="50" parent="44" name="key">
       <Position>1</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26224</StateNumber>
+      <StateNumber>26409</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="51" parent="44" name="value">
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>26224</StateNumber>
+      <StateNumber>26409</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="52" parent="44" name="created_at">
       <Position>3</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26224</StateNumber>
+      <StateNumber>26409</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="53" parent="44" name="updated_at">
       <Position>4</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26224</StateNumber>
+      <StateNumber>26409</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <index id="54" parent="44" name="ar_internal_metadata_pkey">
-      <ObjectId>64156</ObjectId>
-      <StateNumber>26224</StateNumber>
+      <ObjectId>64878</ObjectId>
+      <StateNumber>26409</StateNumber>
       <ColNames>key</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="55" parent="44" name="ar_internal_metadata_pkey">
-      <ObjectId>64157</ObjectId>
-      <StateNumber>26224</StateNumber>
+      <ObjectId>64879</ObjectId>
+      <StateNumber>26409</StateNumber>
       <ColNames>key</ColNames>
       <UnderlyingIndexName>ar_internal_metadata_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
@@ -359,7 +367,7 @@ sequence|table|19905|19907|1
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26315</StateNumber>
+      <StateNumber>26413</StateNumber>
       <DefaultExpression>nextval(&apos;customer_details_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
@@ -367,126 +375,126 @@ sequence|table|19905|19907|1
       <Position>2</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26315</StateNumber>
+      <StateNumber>26413</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="58" parent="45" name="shop_id">
       <Position>3</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26315</StateNumber>
+      <StateNumber>26413</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="59" parent="45" name="first_name">
       <Position>4</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26315</StateNumber>
+      <StateNumber>26413</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="60" parent="45" name="last_name">
       <Position>5</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26315</StateNumber>
+      <StateNumber>26413</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="61" parent="45" name="email">
       <Position>6</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26315</StateNumber>
+      <StateNumber>26413</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="62" parent="45" name="amount_spent">
       <Position>7</Position>
       <DataType>numeric(16,2 digit)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26315</StateNumber>
+      <StateNumber>26413</StateNumber>
       <TypeId>1700</TypeId>
     </column>
     <column id="63" parent="45" name="point_balance">
       <Position>8</Position>
       <DataType>numeric(16,2 digit)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26315</StateNumber>
+      <StateNumber>26413</StateNumber>
       <TypeId>1700</TypeId>
     </column>
     <column id="64" parent="45" name="recorded_on">
       <Position>9</Position>
       <DataType>timestamp|0s</DataType>
-      <StateNumber>26315</StateNumber>
+      <StateNumber>26413</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <index id="65" parent="45" name="customer_details_pkey">
-      <ObjectId>64364</ObjectId>
-      <StateNumber>26315</StateNumber>
+      <ObjectId>64942</ObjectId>
+      <StateNumber>26413</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
     <index id="66" parent="45" name="index_customer_details_on_email">
-      <ObjectId>64380</ObjectId>
-      <StateNumber>26315</StateNumber>
+      <ObjectId>64958</ObjectId>
+      <StateNumber>26413</StateNumber>
       <ColNames>email</ColNames>
       <Unique>1</Unique>
     </index>
     <index id="67" parent="45" name="index_customer_details_on_user_id">
-      <ObjectId>64376</ObjectId>
-      <StateNumber>26315</StateNumber>
+      <ObjectId>64954</ObjectId>
+      <StateNumber>26413</StateNumber>
       <ColNames>user_id</ColNames>
     </index>
     <index id="68" parent="45" name="index_customer_details_on_shop_id">
-      <ObjectId>64377</ObjectId>
-      <StateNumber>26315</StateNumber>
+      <ObjectId>64955</ObjectId>
+      <StateNumber>26413</StateNumber>
       <ColNames>shop_id</ColNames>
     </index>
     <index id="69" parent="45" name="index_customer_details_on_first_name">
-      <ObjectId>64378</ObjectId>
-      <StateNumber>26315</StateNumber>
+      <ObjectId>64956</ObjectId>
+      <StateNumber>26413</StateNumber>
       <ColNames>first_name</ColNames>
     </index>
     <index id="70" parent="45" name="index_customer_details_on_last_name">
-      <ObjectId>64379</ObjectId>
-      <StateNumber>26315</StateNumber>
+      <ObjectId>64957</ObjectId>
+      <StateNumber>26413</StateNumber>
       <ColNames>last_name</ColNames>
     </index>
     <index id="71" parent="45" name="index_customer_details_on_amount_spent">
-      <ObjectId>64381</ObjectId>
-      <StateNumber>26315</StateNumber>
+      <ObjectId>64959</ObjectId>
+      <StateNumber>26413</StateNumber>
       <ColNames>amount_spent</ColNames>
     </index>
     <index id="72" parent="45" name="index_customer_details_on_point_balance">
-      <ObjectId>64382</ObjectId>
-      <StateNumber>26315</StateNumber>
+      <ObjectId>64960</ObjectId>
+      <StateNumber>26413</StateNumber>
       <ColNames>point_balance</ColNames>
     </index>
     <index id="73" parent="45" name="index_customer_details_on_recorded_on">
-      <ObjectId>64383</ObjectId>
-      <StateNumber>26315</StateNumber>
+      <ObjectId>64961</ObjectId>
+      <StateNumber>26413</StateNumber>
       <ColNames>recorded_on</ColNames>
     </index>
     <key id="74" parent="45" name="customer_details_pkey">
-      <ObjectId>64365</ObjectId>
-      <StateNumber>26315</StateNumber>
+      <ObjectId>64943</ObjectId>
+      <StateNumber>26413</StateNumber>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>customer_details_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <foreign-key id="75" parent="45" name="fk_rails_99ebf5344e">
-      <ObjectId>64366</ObjectId>
-      <StateNumber>26315</StateNumber>
+      <ObjectId>64944</ObjectId>
+      <StateNumber>26413</StateNumber>
       <ColNames>user_id</ColNames>
-      <RefTableId>64114</RefTableId>
+      <RefTableId>64894</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>users</RefTableName>
       <RefKeyName>users_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
     <foreign-key id="76" parent="45" name="fk_rails_78d4132244">
-      <ObjectId>64371</ObjectId>
-      <StateNumber>26315</StateNumber>
+      <ObjectId>64949</ObjectId>
+      <StateNumber>26413</StateNumber>
       <ColNames>shop_id</ColNames>
-      <RefTableId>64102</RefTableId>
+      <RefTableId>64882</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>shops</RefTableName>
       <RefKeyName>shops_pkey</RefKeyName>
@@ -496,7 +504,7 @@ sequence|table|19905|19907|1
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26207</StateNumber>
+      <StateNumber>26412</StateNumber>
       <DefaultExpression>nextval(&apos;earning_rules_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
@@ -504,104 +512,104 @@ sequence|table|19905|19907|1
       <Position>2</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26207</StateNumber>
+      <StateNumber>26412</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="79" parent="46" name="shop_id">
       <Position>3</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26207</StateNumber>
+      <StateNumber>26412</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="80" parent="46" name="name">
       <Position>4</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26207</StateNumber>
+      <StateNumber>26412</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="81" parent="46" name="point">
       <Position>5</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26207</StateNumber>
+      <StateNumber>26412</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="82" parent="46" name="status">
       <Position>6</Position>
       <DataType>boolean|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26207</StateNumber>
+      <StateNumber>26412</StateNumber>
       <TypeId>16</TypeId>
     </column>
     <column id="83" parent="46" name="created_at">
       <Position>7</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26207</StateNumber>
+      <StateNumber>26412</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="84" parent="46" name="updated_at">
       <Position>8</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26207</StateNumber>
+      <StateNumber>26412</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <index id="85" parent="46" name="earning_rules_pkey">
-      <ObjectId>64093</ObjectId>
-      <StateNumber>26207</StateNumber>
+      <ObjectId>64916</ObjectId>
+      <StateNumber>26412</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
     <index id="86" parent="46" name="index_earning_rules_on_user_id">
-      <ObjectId>64099</ObjectId>
-      <StateNumber>26212</StateNumber>
+      <ObjectId>64928</ObjectId>
+      <StateNumber>26412</StateNumber>
       <ColNames>user_id</ColNames>
     </index>
     <index id="87" parent="46" name="index_earning_rules_on_shop_id">
-      <ObjectId>64097</ObjectId>
-      <StateNumber>26210</StateNumber>
+      <ObjectId>64929</ObjectId>
+      <StateNumber>26412</StateNumber>
       <ColNames>shop_id</ColNames>
     </index>
     <index id="88" parent="46" name="index_earning_rules_on_name">
-      <ObjectId>64095</ObjectId>
-      <StateNumber>26208</StateNumber>
+      <ObjectId>64930</ObjectId>
+      <StateNumber>26412</StateNumber>
       <ColNames>name</ColNames>
     </index>
     <index id="89" parent="46" name="index_earning_rules_on_point">
-      <ObjectId>64096</ObjectId>
-      <StateNumber>26209</StateNumber>
+      <ObjectId>64931</ObjectId>
+      <StateNumber>26412</StateNumber>
       <ColNames>point</ColNames>
     </index>
     <index id="90" parent="46" name="index_earning_rules_on_status">
-      <ObjectId>64098</ObjectId>
-      <StateNumber>26211</StateNumber>
+      <ObjectId>64932</ObjectId>
+      <StateNumber>26412</StateNumber>
       <ColNames>status</ColNames>
     </index>
     <key id="91" parent="46" name="earning_rules_pkey">
-      <ObjectId>64094</ObjectId>
-      <StateNumber>26207</StateNumber>
+      <ObjectId>64917</ObjectId>
+      <StateNumber>26412</StateNumber>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>earning_rules_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <foreign-key id="92" parent="46" name="fk_rails_4fe8655cb7">
-      <ObjectId>64137</ObjectId>
-      <StateNumber>26220</StateNumber>
+      <ObjectId>64918</ObjectId>
+      <StateNumber>26412</StateNumber>
       <ColNames>user_id</ColNames>
-      <RefTableId>64114</RefTableId>
+      <RefTableId>64894</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>users</RefTableName>
       <RefKeyName>users_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
     <foreign-key id="93" parent="46" name="fk_rails_f1cc9c5b1d">
-      <ObjectId>64132</ObjectId>
-      <StateNumber>26219</StateNumber>
+      <ObjectId>64923</ObjectId>
+      <StateNumber>26412</StateNumber>
       <ColNames>shop_id</ColNames>
-      <RefTableId>64102</RefTableId>
+      <RefTableId>64882</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>shops</RefTableName>
       <RefKeyName>shops_pkey</RefKeyName>
@@ -611,18 +619,18 @@ sequence|table|19905|19907|1
       <Position>1</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26221</StateNumber>
+      <StateNumber>26408</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <index id="95" parent="47" name="schema_migrations_pkey">
-      <ObjectId>64148</ObjectId>
-      <StateNumber>26221</StateNumber>
+      <ObjectId>64870</ObjectId>
+      <StateNumber>26408</StateNumber>
       <ColNames>version</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="96" parent="47" name="schema_migrations_pkey">
-      <ObjectId>64149</ObjectId>
-      <StateNumber>26221</StateNumber>
+      <ObjectId>64871</ObjectId>
+      <StateNumber>26408</StateNumber>
       <ColNames>version</ColNames>
       <UnderlyingIndexName>schema_migrations_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
@@ -631,7 +639,7 @@ sequence|table|19905|19907|1
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26213</StateNumber>
+      <StateNumber>26410</StateNumber>
       <DefaultExpression>nextval(&apos;shops_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
@@ -639,45 +647,45 @@ sequence|table|19905|19907|1
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26213</StateNumber>
+      <StateNumber>26410</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="99" parent="48" name="shopify_token">
       <Position>3</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26213</StateNumber>
+      <StateNumber>26410</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="100" parent="48" name="created_at">
       <Position>4</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26213</StateNumber>
+      <StateNumber>26410</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="101" parent="48" name="updated_at">
       <Position>5</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26213</StateNumber>
+      <StateNumber>26410</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <index id="102" parent="48" name="shops_pkey">
-      <ObjectId>64109</ObjectId>
-      <StateNumber>26213</StateNumber>
+      <ObjectId>64889</ObjectId>
+      <StateNumber>26410</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
     <index id="103" parent="48" name="index_shops_on_shopify_domain">
-      <ObjectId>64111</ObjectId>
-      <StateNumber>26214</StateNumber>
+      <ObjectId>64891</ObjectId>
+      <StateNumber>26410</StateNumber>
       <ColNames>shopify_domain</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="104" parent="48" name="shops_pkey">
-      <ObjectId>64110</ObjectId>
-      <StateNumber>26213</StateNumber>
+      <ObjectId>64890</ObjectId>
+      <StateNumber>26410</StateNumber>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>shops_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
@@ -686,7 +694,7 @@ sequence|table|19905|19907|1
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26215</StateNumber>
+      <StateNumber>26411</StateNumber>
       <DefaultExpression>nextval(&apos;users_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
@@ -694,7 +702,7 @@ sequence|table|19905|19907|1
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26215</StateNumber>
+      <StateNumber>26411</StateNumber>
       <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
       <TypeId>1043</TypeId>
     </column>
@@ -702,63 +710,63 @@ sequence|table|19905|19907|1
       <Position>3</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26215</StateNumber>
+      <StateNumber>26411</StateNumber>
       <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
       <TypeId>1043</TypeId>
     </column>
     <column id="108" parent="49" name="reset_password_token">
       <Position>4</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>26215</StateNumber>
+      <StateNumber>26411</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="109" parent="49" name="reset_password_sent_at">
       <Position>5</Position>
       <DataType>timestamp|0s</DataType>
-      <StateNumber>26215</StateNumber>
+      <StateNumber>26411</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="110" parent="49" name="remember_created_at">
       <Position>6</Position>
       <DataType>timestamp|0s</DataType>
-      <StateNumber>26215</StateNumber>
+      <StateNumber>26411</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="111" parent="49" name="created_at">
       <Position>7</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26215</StateNumber>
+      <StateNumber>26411</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="112" parent="49" name="updated_at">
       <Position>8</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>26215</StateNumber>
+      <StateNumber>26411</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <index id="113" parent="49" name="users_pkey">
-      <ObjectId>64123</ObjectId>
-      <StateNumber>26215</StateNumber>
+      <ObjectId>64903</ObjectId>
+      <StateNumber>26411</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
     <index id="114" parent="49" name="index_users_on_email">
-      <ObjectId>64125</ObjectId>
-      <StateNumber>26216</StateNumber>
+      <ObjectId>64905</ObjectId>
+      <StateNumber>26411</StateNumber>
       <ColNames>email</ColNames>
       <Unique>1</Unique>
     </index>
     <index id="115" parent="49" name="index_users_on_reset_password_token">
-      <ObjectId>64126</ObjectId>
-      <StateNumber>26217</StateNumber>
+      <ObjectId>64906</ObjectId>
+      <StateNumber>26411</StateNumber>
       <ColNames>reset_password_token</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="116" parent="49" name="users_pkey">
-      <ObjectId>64124</ObjectId>
-      <StateNumber>26215</StateNumber>
+      <ObjectId>64904</ObjectId>
+      <StateNumber>26411</StateNumber>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
