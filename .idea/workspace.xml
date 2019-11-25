@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f50433-84d2-46f2-acd3-9ade5176f4db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/acf54e50-1c00-489f-91d1-fc2ce1149751.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/acf54e50-1c00-489f-91d1-fc2ce1149751.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/acf54e50-1c00-489f-91d1-fc2ce1149751/storage_v2/_src_/database/ShopifyLoyaltyApp_test.UPHIqA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/acf54e50-1c00-489f-91d1-fc2ce1149751/storage_v2/_src_/database/ShopifyLoyaltyApp_test.UPHIqA/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/af9c1fcf-c3c3-4607-b1fc-edd7edb52c13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/af9c1fcf-c3c3-4607-b1fc-edd7edb52c13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/af9c1fcf-c3c3-4607-b1fc-edd7edb52c13/storage_v2/_src_/database/ShopifyLoyaltyApp_production.95Y-zg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/af9c1fcf-c3c3-4607-b1fc-edd7edb52c13/storage_v2/_src_/database/ShopifyLoyaltyApp_production.95Y-zg/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e60af39f-0cb2-4582-b520-45e0bbeffffd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e60af39f-0cb2-4582-b520-45e0bbeffffd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/tiwa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/tiwa.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/customer_details_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/customer_details_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/earning_rules_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/earning_rules_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/customer_details_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/earning_rules_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/exceptions_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/mandatory_webhooks_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/order_webhooks_helper.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/jobs/orders_paid_job.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/jobs/orders_paid_job.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/mailers/application_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/earning_rule.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/earning_rule.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/presenters/customer_detail_presenter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/customer_detail_presenter.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/sidekiq.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/sidekiq.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20191111095310_create_customer_details.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20191111095310_create_customer_details.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/earning_rule_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/earning_rule_spec.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -197,8 +170,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/jobs/orders_paid_job.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="108">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -701,7 +674,7 @@
       <workItem from="1574189082116" duration="15166000" />
       <workItem from="1574212420870" duration="95363000" />
       <workItem from="1574430771969" duration="73570000" />
-      <workItem from="1574634907338" duration="1864000" />
+      <workItem from="1574634907338" duration="2180000" />
     </task>
     <servers />
   </component>
@@ -738,13 +711,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="486414000" />
+    <option name="totallyTimeSpent" value="486730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.26129428" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.26129428" />
       <window_info id="Structure" order="1" sideWeight="0.5010142" side_tool="true" weight="0.21245421" />
       <window_info id="Favorites" order="2" sideWeight="0.5016234" side_tool="true" weight="0.21245421" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -757,7 +730,7 @@
       <window_info anchor="bottom" id="Docker" order="7" weight="0.32921812" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32921812" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.498779" visible="true" weight="0.43312758" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.498779" visible="true" weight="0.43312758" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.501221" side_tool="true" weight="0.48765433" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32921812" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1120,8 +1093,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/jobs/orders_paid_job.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="108">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

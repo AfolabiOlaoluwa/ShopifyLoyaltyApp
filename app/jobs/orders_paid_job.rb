@@ -7,7 +7,6 @@ class OrdersPaidJob < ApplicationJob
 
     shop.with_shopify_session do
       customer = webhook['customer']
-      binding.pry
       payload = {
         user_id: user,
         shop_id: shop.id,
@@ -19,7 +18,6 @@ class OrdersPaidJob < ApplicationJob
         point_balance: awarded_points(customer, shop.id),
         recorded_on: Time.now
       }
-      binding.pry
       CustomerDetail.upsert(payload, unique_by: :email)
       OrderPointsJob.perform(customer['email'])
     end
