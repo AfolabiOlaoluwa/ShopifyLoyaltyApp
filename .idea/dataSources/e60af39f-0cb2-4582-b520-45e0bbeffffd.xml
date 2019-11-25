@@ -68,20 +68,20 @@ sequence|table|70796|70798|1
       <Owner>postgres</Owner>
       <IntrospectionStateNumber>25788</IntrospectionStateNumber>
       <Current>1</Current>
-      <Relations>sequence|table|20077|20079|1
-sequence|table|20088|20090|1
-sequence|table|20096|20098|1
-sequence|table|20109|20111|1
-sequence|table|20117|20119|1
-sequence|table|20046|20048|1
-sequence|table|20028|20030|1
-sequence|table|20036|20038|1
+      <Relations>sequence|table|20028|20030|1
 sequence|table|20002|20004|1
-sequence|table|19950|19952|1
 sequence|table|19992|19994|1
+sequence|table|19950|19952|1
 sequence|table|19934|19936|1
 sequence|table|19926|19928|1
 sequence|table|19905|19907|1
+sequence|table|20109|20111|1
+sequence|table|20117|20119|1
+sequence|table|20077|20079|1
+sequence|table|20088|20090|1
+sequence|table|20096|20098|1
+sequence|table|20046|20048|1
+sequence|table|20036|20038|1
 </Relations>
     </database>
     <database id="13" parent="1" name="sandbox_development">

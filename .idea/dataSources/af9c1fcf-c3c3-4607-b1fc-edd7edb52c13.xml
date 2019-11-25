@@ -13,12 +13,12 @@
       <ObjectId>64065</ObjectId>
       <StateNumber>26198</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>27971</IntrospectionStateNumber>
+      <IntrospectionStateNumber>27979</IntrospectionStateNumber>
       <Visible>1</Visible>
-      <Relations>sequence|table|64084|64086|1
-sequence|table|64100|64102|1
-sequence|table|64112|64114|1
+      <Relations>sequence|table|64112|64114|1
 sequence|table|70497|70499|1
+sequence|table|64084|64086|1
+sequence|table|64100|64102|1
 </Relations>
     </database>
     <database id="4" parent="1" name="ShopifyLoyaltyApp_test">
@@ -68,20 +68,20 @@ sequence|table|70497|70499|1
       <Owner>postgres</Owner>
       <IntrospectionStateNumber>25522</IntrospectionStateNumber>
       <Current>1</Current>
-      <Relations>sequence|table|20077|20079|1
-sequence|table|20088|20090|1
-sequence|table|20096|20098|1
-sequence|table|20109|20111|1
-sequence|table|20117|20119|1
-sequence|table|20046|20048|1
-sequence|table|20028|20030|1
-sequence|table|20036|20038|1
+      <Relations>sequence|table|20028|20030|1
 sequence|table|20002|20004|1
-sequence|table|19950|19952|1
 sequence|table|19992|19994|1
+sequence|table|19950|19952|1
 sequence|table|19926|19928|1
 sequence|table|19934|19936|1
 sequence|table|19905|19907|1
+sequence|table|20109|20111|1
+sequence|table|20117|20119|1
+sequence|table|20077|20079|1
+sequence|table|20088|20090|1
+sequence|table|20096|20098|1
+sequence|table|20046|20048|1
+sequence|table|20036|20038|1
 </Relations>
     </database>
     <database id="13" parent="1" name="sandbox_development">
@@ -172,7 +172,7 @@ sequence|table|19905|19907|1
       <ObjectId>12381</ObjectId>
       <StateNumber>664</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>27914</IntrospectionStateNumber>
+      <IntrospectionStateNumber>27980</IntrospectionStateNumber>
       <Visible>1</Visible>
     </schema>
     <schema id="28" parent="3" name="pg_catalog">
@@ -180,14 +180,14 @@ sequence|table|19905|19907|1
       <Comment>system catalog schema</Comment>
       <StateNumber>661</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>27915</IntrospectionStateNumber>
+      <IntrospectionStateNumber>27981</IntrospectionStateNumber>
       <Visible>1</Visible>
     </schema>
     <schema id="29" parent="3" name="pg_temp_1">
       <ObjectId>11848</ObjectId>
       <StateNumber>103</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>27916</IntrospectionStateNumber>
+      <IntrospectionStateNumber>27982</IntrospectionStateNumber>
       <Visible>1</Visible>
     </schema>
     <schema id="30" parent="3" name="pg_toast">
@@ -195,14 +195,14 @@ sequence|table|19905|19907|1
       <Comment>reserved schema for TOAST tables</Comment>
       <StateNumber>1</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>27917</IntrospectionStateNumber>
+      <IntrospectionStateNumber>27983</IntrospectionStateNumber>
       <Visible>1</Visible>
     </schema>
     <schema id="31" parent="3" name="pg_toast_temp_1">
       <ObjectId>11849</ObjectId>
       <StateNumber>103</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>27918</IntrospectionStateNumber>
+      <IntrospectionStateNumber>27984</IntrospectionStateNumber>
       <Visible>1</Visible>
     </schema>
     <schema id="32" parent="3" name="public">
@@ -210,7 +210,7 @@ sequence|table|19905|19907|1
       <Comment>standard public schema</Comment>
       <StateNumber>662</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>27972</IntrospectionStateNumber>
+      <IntrospectionStateNumber>27985</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
