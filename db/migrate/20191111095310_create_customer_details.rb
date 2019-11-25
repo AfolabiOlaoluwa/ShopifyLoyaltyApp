@@ -1,7 +1,6 @@
 class CreateCustomerDetails < ActiveRecord::Migration[6.0]
   def change
     create_table :customer_details do |t|
-      t.references :user, null: false, foreign_key: true
       t.references :shop, null: false, foreign_key: true
       t.string :first_name, null: false
       t.string :last_name, null: false

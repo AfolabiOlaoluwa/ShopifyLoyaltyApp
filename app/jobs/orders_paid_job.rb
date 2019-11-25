@@ -6,10 +6,10 @@ class OrdersPaidJob < ApplicationJob
     return unless shop
 
     shop.with_shopify_session do
+      binding.pry
       customer = webhook['customer']
 
       payload = {
-        user_id: current_user,
         shop_id: shop.id,
         email: customer['email'],
         amount_spent: customer['total_spent'],
@@ -21,7 +21,7 @@ class OrdersPaidJob < ApplicationJob
       }
 
       CustomerDetail.upsert(payload, unique_by: :email)
-      OrderPointsJob.perform(customer['email'])
+      # OrderPointsJob.perform_now(customer['email'])#.deliver_now
     end
   end
 
@@ -34,6 +34,6 @@ class OrdersPaidJob < ApplicationJob
   end
 
   def previous_points(customer, shop)
-    (customer['total_spent'] - customer['price']) * EarningRule.order_rule(shop)
+    (customer['total_spent'].to_i - 2) * EarningRule.order_rule(shop)
   end
 end
