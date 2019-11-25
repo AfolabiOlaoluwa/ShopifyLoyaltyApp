@@ -6,7 +6,6 @@ class OrdersPaidJob < ApplicationJob
     return unless shop
 
     shop.with_shopify_session do
-      binding.pry
       customer = webhook['customer']
 
       payload = {
