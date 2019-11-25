@@ -32,5 +32,19 @@ module ShopifyLoyaltyApp
     config.exceptions_app = ->(env) { ExceptionsController.action(:show).call(env) }
 
     config.active_job.queue_adapter = :sidekiq
+
+    # Mail Settings
+    config.action_mailer.default charset: 'utf-8'
+    config.action_mailer.default_url_options = { host: ENV["APPLICATION_URL_HOST"], protocol: ENV['APPLICATION_URL_SCHEMA'] }
+    config.action_mailer.delivery_method = :smtp
+    config.action_mailer.smtp_settings = {
+        port: ENV["SMTP_PORT"],
+        domain: ENV["SMTP_DOMAIN"],
+        address: ENV["SMTP_ADDRESS"],
+        user_name: ENV["SMTP_USERNAME"],
+        password: ENV["SMTP_PASSWORD"],
+        authentication: ENV["SMTP_AUTHENTICATION"],
+        enable_starttls_auto: true
+    }
   end
 end

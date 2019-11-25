@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 2019_11_11_095310) do
     t.string "last_name", null: false
     t.string "email", null: false
     t.decimal "amount_spent", precision: 16, scale: 2, null: false
+    t.decimal "previous_point", precision: 16, scale: 2, null: false
     t.decimal "point_balance", precision: 16, scale: 2, null: false
     t.datetime "recorded_on"
     t.index ["amount_spent"], name: "index_customer_details_on_amount_spent"
@@ -29,6 +30,7 @@ ActiveRecord::Schema.define(version: 2019_11_11_095310) do
     t.index ["first_name"], name: "index_customer_details_on_first_name"
     t.index ["last_name"], name: "index_customer_details_on_last_name"
     t.index ["point_balance"], name: "index_customer_details_on_point_balance"
+    t.index ["previous_point"], name: "index_customer_details_on_previous_point"
     t.index ["recorded_on"], name: "index_customer_details_on_recorded_on"
     t.index ["shop_id"], name: "index_customer_details_on_shop_id"
     t.index ["user_id"], name: "index_customer_details_on_user_id"

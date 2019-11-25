@@ -7,6 +7,7 @@ class CreateCustomerDetails < ActiveRecord::Migration[6.0]
       t.string :last_name, null: false
       t.string :email, null: false
       t.decimal :amount_spent, precision: 16, scale: 2, null: false
+      t.decimal :previous_point, precision: 16, scale: 2, null: false
       t.decimal :point_balance, precision: 16, scale: 2, null: false
 
       t.datetime :recorded_on
@@ -15,6 +16,7 @@ class CreateCustomerDetails < ActiveRecord::Migration[6.0]
     add_index :customer_details, :last_name
     add_index :customer_details, :email, unique: true
     add_index :customer_details, :amount_spent
+    add_index :customer_details, :previous_point
     add_index :customer_details, :point_balance
     add_index :customer_details, :recorded_on
   end

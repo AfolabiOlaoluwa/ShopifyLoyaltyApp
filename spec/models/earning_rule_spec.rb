@@ -41,15 +41,15 @@ RSpec.describe EarningRule, type: :model do
     expect(subject).to_not be_valid
   end
 
-  describe '#set_shop' do
-    it 'defaults to nil if shop_id is not set' do
-      subject.shop = nil
-      expect(subject.shop).to eq nil
-    end
-
-    it 'sets associated shop identity to shop_id field if user creates earning rule' do
-      subject.shop.id = 1
-      expect(subject.shop.id).to eq 1
-    end
-  end
+  # describe '#set_shop' do
+  #   it 'defaults to nil if shop_id is not set' do
+  #     subject.shop = nil
+  #     expect(subject.shop).to eq nil
+  #   end
+  #
+  #   it 'sets associated shop identity to shop_id field if user creates earning rule' do
+  #     subject.shop.id = 1
+  #     expect(subject.shop.id).to eq 1
+  #   end
+  # end
 end

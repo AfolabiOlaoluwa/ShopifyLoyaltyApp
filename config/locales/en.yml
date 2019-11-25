@@ -22,3 +22,7 @@ en:
         edit: ""
         delete: "Are you sure you want to delete this?"
 
+  order_points_mailer:
+    paid_order_email:
+      content1: 'Congratulations %{customer_name}.'
+      content2: 'You earned %{previous_point} points on your last order. You now have a balance of %{current_point} points.'

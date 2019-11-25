@@ -1,0 +1,8 @@
+<p>
+  <%= t('.content1', customer_name: @customer_detail.first_name) %>
+</p>
+<p>
+  <%= t('.content2',
+        previous_point: @customer_detail.previous_point,
+        current_point: @customer_detail.point_balance) %>
+</p>
