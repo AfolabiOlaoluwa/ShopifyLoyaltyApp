@@ -3,8 +3,10 @@
 class OrderPointsJob < ApplicationJob
   queue_as :mailer
 
-  def perform(customer_email)
-    customer_detail = CustomerDetail.find_by_email(eamil: customer_email)
+  # def perform_now(customer_email)
+  def send_mail(customer_email)
+    binding.pry
+    customer_detail = CustomerDetail.find_by(email: customer_email)
     return unless customer_detail
 
     OrderPointsMailer.paid_order_email(customer_detail.id)

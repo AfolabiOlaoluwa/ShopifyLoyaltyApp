@@ -1,14 +1,19 @@
 # frozen_string_literal: true
 
-class EarningRulesController < AuthenticatedController#ApplicationController
+class EarningRulesController < AuthenticatedController
   include StrictQueries::Concern
 
   before_action :set_earning_rule, only: %i[show edit update destroy]
-  before_action :current_shop, only: %i[new]
   before_action :authenticate_user!
 
   def index
-    @earning_rules = current_user.earning_rules.load
+    earning_rules = current_user.earning_rules.load
+
+    if earning_rules.empty?
+      redirect_to new_earning_rule_url, notice: 'Kindly create Earning Rule before you can proceed'
+    else
+      @earning_rules = earning_rules
+    end
   end
 
   def show; end
@@ -56,10 +61,6 @@ class EarningRulesController < AuthenticatedController#ApplicationController
   end
 
   private
-
-  def current_shop
-    Shop.find_by(shopify_domain: cookies[:shopify_domain])
-  end
 
   def set_earning_rule
     @earning_rule = EarningRule.find(params[:id])

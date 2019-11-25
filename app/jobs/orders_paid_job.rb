@@ -14,13 +14,15 @@ class OrdersPaidJob < ApplicationJob
         amount_spent: customer['total_spent'],
         first_name: customer['first_name'],
         last_name: customer['last_name'],
-        previous_point: previous_points(customer, shop.id),
+        previous_point: previous_points(customer, shop.id, webhook),
         point_balance: awarded_points(customer, shop.id),
         recorded_on: Time.now
       }
 
       CustomerDetail.upsert(payload, unique_by: :email)
-      # OrderPointsJob.perform_now(customer['email'])#.deliver_now
+      OrderPointsJob.send_mail(customer['email'])
+      # OrderPointsJob.perform_later(customer['email'])#.deliver_later #This enqueues
+      # OrderPointsJob.perform_later(webhook['customer']['email'])
     end
   end
 
@@ -32,7 +34,7 @@ class OrdersPaidJob < ApplicationJob
     (customer['total_spent']).to_i * EarningRule.order_rule(shop)
   end
 
-  def previous_points(customer, shop)
-    (customer['total_spent'].to_i - 2) * EarningRule.order_rule(shop)
+  def previous_points(customer, shop, webhook)
+    (customer['total_spent'].to_i - webhook['total_price'].to_i) * EarningRule.order_rule(shop)
   end
 end
