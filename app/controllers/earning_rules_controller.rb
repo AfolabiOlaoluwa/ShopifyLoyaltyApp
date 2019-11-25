@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class EarningRulesController < ApplicationController
+class EarningRulesController < AuthenticatedController#ApplicationController
   include StrictQueries::Concern
 
   before_action :set_earning_rule, only: %i[show edit update destroy]

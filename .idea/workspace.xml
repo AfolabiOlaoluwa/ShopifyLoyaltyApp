@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f50433-84d2-46f2-acd3-9ade5176f4db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/jobs/orders_paid_job.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/jobs/orders_paid_job.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/earning_rules_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/earning_rules_controller.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,11 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/earning_rules_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="46">
+              <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -152,8 +152,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/mailers/order_points_mailer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="161">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -167,7 +167,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/jobs/orders_paid_job.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
@@ -225,7 +225,6 @@
         <option value="$PROJECT_DIR$/app/controllers/authenticated_controller.rb" />
         <option value="$PROJECT_DIR$/spec/models/earning_rule_spec.rb" />
         <option value="$PROJECT_DIR$/app/models/earning_rule.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/earning_rules_controller.rb" />
         <option value="$PROJECT_DIR$/spec/requests/sessions_spec.rb" />
         <option value="$PROJECT_DIR$/spec/requests/customer_details_spec.rb" />
         <option value="$PROJECT_DIR$/spec/requests/earning_rules_spec.rb" />
@@ -247,6 +246,7 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/jobs/order_points_job.rb" />
         <option value="$PROJECT_DIR$/app/jobs/orders_paid_job.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/earning_rules_controller.rb" />
       </list>
     </option>
   </component>
@@ -292,19 +292,18 @@
               <item name="ShopifyLoyaltyApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ShopifyLoyaltyApp" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="shopify_app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShopifyLoyaltyApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShopifyLoyaltyApp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="jobs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShopifyLoyaltyApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ShopifyLoyaltyApp" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShopifyLoyaltyApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShopifyLoyaltyApp" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="migrate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShopifyLoyaltyApp" type="b2602c69:ProjectViewProjectNode" />
@@ -674,7 +673,7 @@
       <workItem from="1574189082116" duration="15166000" />
       <workItem from="1574212420870" duration="95363000" />
       <workItem from="1574430771969" duration="73570000" />
-      <workItem from="1574634907338" duration="2180000" />
+      <workItem from="1574634907338" duration="3272000" />
     </task>
     <servers />
   </component>
@@ -711,13 +710,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="486730000" />
+    <option name="totallyTimeSpent" value="487822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.26129428" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.26129428" />
       <window_info id="Structure" order="1" sideWeight="0.5010142" side_tool="true" weight="0.21245421" />
       <window_info id="Favorites" order="2" sideWeight="0.5016234" side_tool="true" weight="0.21245421" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -730,7 +729,7 @@
       <window_info anchor="bottom" id="Docker" order="7" weight="0.32921812" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32921812" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.498779" visible="true" weight="0.43312758" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.498779" visible="true" weight="0.43312758" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.501221" side_tool="true" weight="0.48765433" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32921812" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -765,13 +764,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/requests/sessions_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://acf54e50-1c00-489f-91d1-fc2ce1149751/database/ShopifyLoyaltyApp_test/schema/public/table/earning_rules">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -838,13 +830,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20191111095310_create_customer_details.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="67" lean-forward="true" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -1063,10 +1048,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20191111095310_create_customer_details.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="8" column="67" lean-forward="true" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/order_points_mailer/paid_order_email.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-382" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/order_points_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/jobs/orders_paid_job.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -1079,22 +1090,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/earning_rules_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/order_points_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/jobs/orders_paid_job.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="46">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
         </state>
       </provider>
     </entry>
