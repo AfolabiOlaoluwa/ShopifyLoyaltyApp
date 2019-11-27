@@ -51,6 +51,8 @@ From the root of the application just run `rspec`.
     To finish setting up your new web address, go to your domain settings, click "Connect existing domain", and enter: myshopify.com
     ```
 
+3. If you get any error as to GMAIL SMTP, kindly follow through with this link https://stackoverflow.com/a/49729339/5614748
+
 ### Note
 
 1. To have access to Sidekiq on production, use https://fera-loyalty.herokuapp.com/sidekiq. I didnt lock it specifically to admin. So It is accessible.
