@@ -7,36 +7,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/customer_details_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/customer_details_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users/confirmations_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users/confirmations_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users/omniauth_callbacks_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users/omniauth_callbacks_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users/passwords_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users/passwords_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users/registrations_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users/registrations_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users/sessions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users/sessions_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users/unlocks_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users/unlocks_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/jobs/order_points_job.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/jobs/order_points_job.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/jobs/orders_paid_job.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/jobs/orders_paid_job.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/mailers/application_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/mailers/order_points_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/order_points_mailer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/customer_detail.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/customer_detail.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/earning_rule.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/earning_rule.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/factories/customer_detail.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/customer_detail.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/factories/earning_rule.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/earning_rule.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/factories/shop.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/shop.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/factories/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/jobs/order_points_mailer_job_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/jobs/order_points_mailer_job_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/mailers/order_points_mailer_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/mailers/previews/order_points_mailer_preview.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/customer_detail_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/customer_detail_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/presenters/customer_detail_presenter_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/presenters/customer_detail_presenter_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/customer_details/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/customer_details/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/earning_rules/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/earning_rules/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/jobs/order_points_mailer_job_spec.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/requests/customer_details_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/customer_details_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/requests/earning_rules_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/earning_rules_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/requests/sessions_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/sessions_spec.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +29,7 @@
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@EarningRule__create__when_logged_in_renders_new_form__ShopifyLoyaltyApp.rcov" NAME="EarningRule #create #when logged in renders new form: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574456489986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@EarningRule_set_shop_defaults_to_nil_if_shop_id_is_not_set__ShopifyLoyaltyApp.rcov" NAME="EarningRule#set_shop defaults to nil if shop_id is not set: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574374309020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@Shop__ShopifyLoyaltyApp.rcov" NAME="Shop: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574434350851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
+    <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@OrdersPaidJob_perform_enqueues_email__ShopifyLoyaltyApp.rcov" NAME="OrdersPaidJob#perform enqueues email: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574866427613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@EarningRulePresenter__ShopifyLoyaltyApp.rcov" NAME="EarningRulePresenter: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574727756067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@Background_Jobs.rcov" NAME="Background Jobs Coverage Results" MODIFIED="1573848169715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@Sending_email_with_sidekiq__ShopifyLoyaltyApp.rcov" NAME="Sending email with sidekiq: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574791235568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
@@ -60,6 +38,7 @@
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@EarningRule_is_not_valid_without_a_shop__ShopifyLoyaltyApp.rcov" NAME="EarningRule is not valid without a shop: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574369559544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@EarningRule__create__when_not_logged_in__ShopifyLoyaltyApp.rcov" NAME="EarningRule #create #when not logged in: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574477833320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@EarningRule__create__when_not_logged_in_returns_unauthenticated__ShopifyLoyaltyApp.rcov" NAME="EarningRule #create #when not logged in returns unauthenticated: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574479627151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
+    <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@OrderPointsJob__ShopifyLoyaltyApp.rcov" NAME="OrderPointsJob: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574863669698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@CustomerDetail__index_when_logged_in_should_render_customer_details_index_page__ShopifyLoyaltyApp.rcov" NAME="CustomerDetail #index when logged in should render customer details index page: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574773506759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@CustomerDetailPresenter_point_balance_when_point_balance_is_nil__ShopifyLoyaltyApp.rcov" NAME="CustomerDetailPresenter#point_balance when point_balance is nil: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574438468881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@Sending_Mail_with_Sidekiq__ShopifyLoyaltyApp.rcov" NAME="Sending Mail with Sidekiq: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574855230727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
@@ -68,6 +47,7 @@
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@CustomerDetail__ShopifyLoyaltyApp.rcov" NAME="CustomerDetail: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574783277216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@order_webhooks_controller.rcov" NAME="order_webhooks_controller Coverage Results" MODIFIED="1573850543463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers" MODULE_NAME="ShopifyLoyaltyApp" />
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@User__ShopifyLoyaltyApp.rcov" NAME="User: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574434365719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
+    <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@OrdersPaidJob__ShopifyLoyaltyApp.rcov" NAME="OrdersPaidJob: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574866077494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@Shop_api_version_defaults_shop_integration_to_api_version__ShopifyLoyaltyApp.rcov" NAME="Shop#api_version defaults shop integration to api version: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574373951011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@CustomerDetailPresenter_point_balance_when_point_balance_is_not_nil__ShopifyLoyaltyApp.rcov" NAME="CustomerDetailPresenter#point_balance when point_balance is not nil: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574439167505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@EarningRule__create__when_not_logged_in_redirects_to_signin_page__ShopifyLoyaltyApp.rcov" NAME="EarningRule #create #when not logged in redirects to signin page: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574479585250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
@@ -75,6 +55,7 @@
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@CustomerDetailPresenter_email__ShopifyLoyaltyApp.rcov" NAME="CustomerDetailPresenter#email: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574435369558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@EarningRule__create__when_logged_in_changes_earning_rules_by_1__ShopifyLoyaltyApp.rcov" NAME="EarningRule #create #when logged in changes earning rules by 1: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574479806765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@CustomerDetailPresenter__ShopifyLoyaltyApp.rcov" NAME="CustomerDetailPresenter: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574727979970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
+    <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@OrderPointsJob__ShopifyLoyaltyApp__1_.rcov" NAME="OrderPointsJob: ShopifyLoyaltyApp (1) Coverage Results" MODIFIED="1574865712696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@EarningRule__create__when_logged_in__ShopifyLoyaltyApp.rcov" NAME="EarningRule #create #when logged in: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574456755504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@Production__ShopifyLoyaltyApp.rcov" NAME="Production: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574675816615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
     <SUITE FILE_PATH="coverage/ShopifyLoyaltyApp@Sessions__ShopifyLoyaltyApp.rcov" NAME="Sessions: ShopifyLoyaltyApp Coverage Results" MODIFIED="1574789651839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ShopifyLoyaltyApp" />
@@ -153,19 +134,92 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/jobs/order_points_job.rb">
+        <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="115">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/requests/customer_details_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.env">
+        <entry file="file://$PROJECT_DIR$/app/controllers/customer_details_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="253">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/requests/earning_rules_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="25" column="64" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="25" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/earning_rules_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="54" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="305">
+                <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/earning_rules/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="48" lean-forward="true" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/earning_rules/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/earning_rules/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#610#664#0#ruby" expanded="true" />
+                <element signature="n#t#1;n#!!top" expanded="true" />
+                <element signature="n#t#2;n#!!top" expanded="true" />
+                <element signature="n#t#3;n#!!top" expanded="true" />
+                <element signature="n#t#4;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,22 +244,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spec/models/earning_rule_spec.rb" />
-        <option value="$PROJECT_DIR$/app/views/order_points_mailer/paid_order_email.html.erb" />
-        <option value="$PROJECT_DIR$/config/locales/en.yml" />
-        <option value="$PROJECT_DIR$/app/presenters/customer_detail_presenter.rb" />
-        <option value="$PROJECT_DIR$/config/sidekiq.yml" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/config/environments/development.rb" />
-        <option value="$PROJECT_DIR$/app/jobs/order_points_mailer_job.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/shopify_app/callback_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/embedded_app.html.erb" />
-        <option value="$PROJECT_DIR$/config/initializers/shopify_app.rb" />
-        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/db/migrate/20191111095310_create_customer_details.rb" />
         <option value="$PROJECT_DIR$/app/views/earning_rules/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/earning_rules_controller.rb" />
         <option value="$PROJECT_DIR$/app/jobs/order_points_job.rb" />
         <option value="$PROJECT_DIR$/app/mailers/application_mailer.rb" />
         <option value="$PROJECT_DIR$/app/mailers/order_points_mailer.rb" />
@@ -223,24 +263,38 @@
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/models/customer_detail.rb" />
         <option value="$PROJECT_DIR$/spec/models/customer_detail_spec.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/spec/factories/earning_rule.rb" />
         <option value="$PROJECT_DIR$/spec/factories/customer_detail.rb" />
         <option value="$PROJECT_DIR$/spec/factories/user.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/customer_details_controller.rb" />
-        <option value="$PROJECT_DIR$/spec/jobs/order_points_mailer_job_spec.rb" />
         <option value="$PROJECT_DIR$/spec/mailers/previews/order_points_mailer_preview.rb" />
         <option value="$PROJECT_DIR$/spec/mailers/order_points_mailer_spec.rb" />
         <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/requests/customer_details_spec.rb" />
         <option value="$PROJECT_DIR$/spec/factories/shop.rb" />
-        <option value="$PROJECT_DIR$/spec/requests/earning_rules_spec.rb" />
         <option value="$PROJECT_DIR$/spec/requests/sessions_spec.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
         <option value="$PROJECT_DIR$/spec/requests/order_points_mailer_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/jobs/order_points_job_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/jobs/customers_data_request_job_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/jobs/orders_paid_job_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/jobs/order_points_mailer_job_spec.rb" />
         <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/helpers/customer_details_helper.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/earning_rules_helper.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/pagy.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/earning_rules_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/authenticated_controller.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/customer_details/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/locales/en.yml" />
+        <option value="$PROJECT_DIR$/app/views/earning_rules/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/earning_rules/edit.html.erb" />
+        <option value="$PROJECT_DIR$/.env.example" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/spec/requests/earning_rules_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/requests/customer_details_spec.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/customer_details_controller.rb" />
       </list>
     </option>
   </component>
@@ -278,7 +332,7 @@
               <item name="ShopifyLoyaltyApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ShopifyLoyaltyApp" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="jobs" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShopifyLoyaltyApp" type="b2602c69:ProjectViewProjectNode" />
@@ -289,7 +343,7 @@
               <item name="ShopifyLoyaltyApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ShopifyLoyaltyApp" type="462c0819:PsiDirectoryNode" />
               <item name="spec" type="462c0819:PsiDirectoryNode" />
-              <item name="jobs" type="462c0819:PsiDirectoryNode" />
+              <item name="requests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -327,7 +381,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.Sending Mail with Sidekiq: ShopifyLoyaltyApp">
+  <component name="RunManager" selected="RSpec.OrdersPaidJob#perform enqueues email: ShopifyLoyaltyApp">
     <configuration name="Background Jobs" type="CommandRunConfigurationType" factoryName="Gem Command">
       <module name="ShopifyLoyaltyApp" />
       <COMMAND_RUN_CONFIGURATION NAME="RUBY_ARGS" VALUE="" />
@@ -348,7 +402,7 @@
       <COMMAND_CONFIG_SETTINGS_ID NAME="WORKING_DIR" VALUE="$MODULE_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="EarningRule: ShopifyLoyaltyApp" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="OrderPointsJob: ShopifyLoyaltyApp (1)" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <module name="ShopifyLoyaltyApp" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -368,10 +422,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/requests/earning_rules_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/jobs/customers_data_request_job_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="EarningRule" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="OrderPointsJob" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -382,7 +436,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Sending Mail with Sidekiq: ShopifyLoyaltyApp" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="OrderPointsJob: ShopifyLoyaltyApp" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <module name="ShopifyLoyaltyApp" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -402,10 +456,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/requests/order_points_mailer_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/jobs/order_points_job_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Sending Mail with Sidekiq" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="OrderPointsJob" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -416,7 +470,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Sending Mail: ShopifyLoyaltyApp" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="OrderPointsJob#perform: ShopifyLoyaltyApp" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <module name="ShopifyLoyaltyApp" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -436,10 +490,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/requests/order_points_mailer_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/jobs/order_points_job_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Sending Mail" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="OrderPointsJob#perform" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -450,7 +504,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Sending email with sidekiq: ShopifyLoyaltyApp" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="OrdersPaidJob: ShopifyLoyaltyApp" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <module name="ShopifyLoyaltyApp" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -470,10 +524,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/requests/order_points_mailer_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/jobs/orders_paid_job_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Sending email with sidekiq" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="OrdersPaidJob" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -484,7 +538,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Sessions: ShopifyLoyaltyApp" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="OrdersPaidJob#perform enqueues email: ShopifyLoyaltyApp" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <module name="ShopifyLoyaltyApp" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -504,10 +558,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/requests/sessions_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/jobs/orders_paid_job_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Sessions" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="OrdersPaidJob#perform enqueues email" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -619,19 +673,19 @@
       <item itemvalue="Rails.Production: ShopifyLoyaltyApp" />
       <item itemvalue="Rake.spec: ShopifyLoyaltyApp" />
       <item itemvalue="Rake.test: ShopifyLoyaltyApp" />
-      <item itemvalue="RSpec.EarningRule: ShopifyLoyaltyApp" />
-      <item itemvalue="RSpec.Sessions: ShopifyLoyaltyApp" />
-      <item itemvalue="RSpec.Sending email with sidekiq: ShopifyLoyaltyApp" />
-      <item itemvalue="RSpec.Sending Mail: ShopifyLoyaltyApp" />
-      <item itemvalue="RSpec.Sending Mail with Sidekiq: ShopifyLoyaltyApp" />
+      <item itemvalue="RSpec.OrderPointsJob#perform: ShopifyLoyaltyApp" />
+      <item itemvalue="RSpec.OrderPointsJob: ShopifyLoyaltyApp" />
+      <item itemvalue="RSpec.OrdersPaidJob: ShopifyLoyaltyApp" />
+      <item itemvalue="RSpec.OrderPointsJob: ShopifyLoyaltyApp (1)" />
+      <item itemvalue="RSpec.OrdersPaidJob#perform enqueues email: ShopifyLoyaltyApp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="RSpec.Sending Mail with Sidekiq: ShopifyLoyaltyApp" />
-        <item itemvalue="RSpec.Sending Mail: ShopifyLoyaltyApp" />
-        <item itemvalue="RSpec.Sending email with sidekiq: ShopifyLoyaltyApp" />
-        <item itemvalue="RSpec.Sessions: ShopifyLoyaltyApp" />
-        <item itemvalue="RSpec.EarningRule: ShopifyLoyaltyApp" />
+        <item itemvalue="RSpec.OrdersPaidJob#perform enqueues email: ShopifyLoyaltyApp" />
+        <item itemvalue="RSpec.OrdersPaidJob: ShopifyLoyaltyApp" />
+        <item itemvalue="RSpec.OrderPointsJob: ShopifyLoyaltyApp (1)" />
+        <item itemvalue="RSpec.OrderPointsJob: ShopifyLoyaltyApp" />
+        <item itemvalue="RSpec.OrderPointsJob#perform: ShopifyLoyaltyApp" />
       </list>
     </recent_temporary>
   </component>
@@ -659,49 +713,50 @@
       <workItem from="1574634907338" duration="7317000" />
       <workItem from="1574672270449" duration="49237000" />
       <workItem from="1574771515296" duration="17830000" />
-      <workItem from="1546301048569" duration="6119000" />
+      <workItem from="1546301048569" duration="21058000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Sending_Mail__ShopifyLoyaltyApp - 2019.11.26 at 22h 01m 05s.xml">
-      <configuration name="Sending Mail: ShopifyLoyaltyApp" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="OrdersPaidJob__ShopifyLoyaltyApp - 2019.11.27 at 15h 19m 35s.xml">
+      <configuration name="OrdersPaidJob: ShopifyLoyaltyApp" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Sending_Mail__ShopifyLoyaltyApp - 2019.11.26 at 22h 01m 36s.xml">
-      <configuration name="Sending Mail: ShopifyLoyaltyApp" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="OrdersPaidJob__ShopifyLoyaltyApp - 2019.11.27 at 15h 22m 22s.xml">
+      <configuration name="OrdersPaidJob: ShopifyLoyaltyApp" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Sending_Mail__ShopifyLoyaltyApp - 2019.11.26 at 22h 01m 54s.xml">
-      <configuration name="Sending Mail: ShopifyLoyaltyApp" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="OrdersPaidJob__ShopifyLoyaltyApp - 2019.11.27 at 15h 23m 01s.xml">
+      <configuration name="OrdersPaidJob: ShopifyLoyaltyApp" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Sending_Mail__ShopifyLoyaltyApp - 2019.11.26 at 22h 02m 08s.xml">
-      <configuration name="Sending Mail: ShopifyLoyaltyApp" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="OrdersPaidJob__ShopifyLoyaltyApp - 2019.11.27 at 15h 34m 37s.xml">
+      <configuration name="OrdersPaidJob: ShopifyLoyaltyApp" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Sending_Mail__ShopifyLoyaltyApp - 2019.11.26 at 22h 02m 56s.xml">
-      <configuration name="Sending Mail: ShopifyLoyaltyApp" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="OrdersPaidJob__ShopifyLoyaltyApp - 2019.11.27 at 15h 35m 26s.xml">
+      <configuration name="OrdersPaidJob: ShopifyLoyaltyApp" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Sending_Mail__ShopifyLoyaltyApp - 2019.11.26 at 22h 04m 55s.xml">
-      <configuration name="Sending Mail: ShopifyLoyaltyApp" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="OrdersPaidJob__ShopifyLoyaltyApp - 2019.11.27 at 15h 35m 58s.xml">
+      <configuration name="OrdersPaidJob: ShopifyLoyaltyApp" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Sending_Mail__ShopifyLoyaltyApp - 2019.11.26 at 22h 10m 07s.xml">
-      <configuration name="Sending Mail: ShopifyLoyaltyApp" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="OrdersPaidJob__ShopifyLoyaltyApp - 2019.11.27 at 15h 36m 43s.xml">
+      <configuration name="OrdersPaidJob: ShopifyLoyaltyApp" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Sending_Mail__ShopifyLoyaltyApp - 2019.11.26 at 22h 18m 00s.xml">
-      <configuration name="Sending Mail: ShopifyLoyaltyApp" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="OrderPointsJob__ShopifyLoyaltyApp_(1) - 2019.11.27 at 15h 41m 56s.xml">
+      <configuration name="OrderPointsJob: ShopifyLoyaltyApp (1)" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Sending_Mail__ShopifyLoyaltyApp - 2019.11.26 at 22h 18m 16s.xml">
-      <configuration name="Sending Mail: ShopifyLoyaltyApp" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="OrdersPaidJob__ShopifyLoyaltyApp - 2019.11.27 at 15h 48m 01s.xml">
+      <configuration name="OrdersPaidJob: ShopifyLoyaltyApp" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Sending_Mail_with_Sidekiq__ShopifyLoyaltyApp - 2019.11.27 at 12h 47m 15s.xml">
-      <configuration name="Sending Mail with Sidekiq: ShopifyLoyaltyApp" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="OrdersPaidJob#perform_enqueues_email__ShopifyLoyaltyApp - 2019.11.27 at 15h 53m 51s.xml">
+      <configuration name="OrdersPaidJob#perform enqueues email: ShopifyLoyaltyApp" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="565053000" />
+    <option name="totallyTimeSpent" value="579992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.27045178" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.27045178" />
       <window_info id="Structure" order="1" sideWeight="0.5010142" side_tool="true" weight="0.21245421" />
       <window_info id="Favorites" order="2" sideWeight="0.5016234" side_tool="true" weight="0.21245421" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -714,7 +769,7 @@
       <window_info anchor="bottom" id="Docker" order="7" weight="0.32921812" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32921812" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.498779" visible="true" weight="0.43209878" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.498779" visible="true" weight="0.43209878" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.501221" side_tool="true" weight="0.48765433" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32921812" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -749,190 +804,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rubies/ruby-2.6.2/lib/ruby/2.6.0/net/smtp.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="982" column="7" lean-forward="true" selection-start-line="982" selection-start-column="7" selection-end-line="982" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e60af39f-0cb2-4582-b520-45e0bbeffffd/database/ShopifyLoyaltyApp_development/schema/public/table/customer_details">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/order_points_mailer/paid_order_email.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding>
-            <element signature="n#t#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/jobs/application_job.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e60af39f-0cb2-4582-b520-45e0bbeffffd/database/ShopifyLoyaltyApp_development/schema/public/table/shops">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.gem/ruby/2.6.2/gems/activejob-6.0.1/lib/active_job/execution.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/application_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://acf54e50-1c00-489f-91d1-fc2ce1149751/database/ShopifyLoyaltyApp_test/schema/public/table/customer_details">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/customer_details/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/presenters/earning_rule_presenter_spec.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="50" column="51" lean-forward="true" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_navbar.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users/omniauth_callbacks_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="78" selection-start-line="2" selection-start-column="78" selection-end-line="2" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users/confirmations_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users/passwords_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users/registrations_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users/sessions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users/unlocks_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/order_webhooks_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/customer_details/_customer_detail.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/shop.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/factories/earning_rule.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/customer_detail.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/factories/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/customer_detail_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://acf54e50-1c00-489f-91d1-fc2ce1149751/database/ShopifyLoyaltyApp_test/schema/public/table/shops">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -957,13 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/jobs/order_points_mailer_job_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="52" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -975,20 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/factories/shop.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/customer_details_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1007,20 +857,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/mailers/order_points_mailer_spec.rb" />
-    <entry file="file://$PROJECT_DIR$/spec/requests/customer_details_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/earning_rules_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/mailers/previews/order_points_mailer_preview.rb" />
     <entry file="file://$APPLICATION_HOME_DIR$/rubystubs26/array.rb">
       <provider selected="true" editor-type-id="text-editor">
@@ -1043,13 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/order_points_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/earning_rule.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -1057,31 +886,272 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/jobs/orders_paid_job.rb">
+    <entry file="file://$PROJECT_DIR$/spec/factories/shop.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="35" column="84" lean-forward="true" selection-start-line="35" selection-start-column="84" selection-end-line="35" selection-end-column="84" />
+        <state relative-caret-position="92">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/spec/jobs/customers_data_request_job_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="40" column="3" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+        <state relative-caret-position="322">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/jobs/customers_data_request_job.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/jobs/order_points_mailer_job_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/application_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/jobs/orders_paid_job_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/jobs/order_points_job_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_navbar.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/order_points_mailer/paid_order_email.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding>
+            <element signature="n#t#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/jobs/orders_paid_job.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/order_points_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/jobs/order_points_job.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="161">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/earning_rules/destroy.js.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/earning_rules/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/customer_detail_presenter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/customer_details/_customer_detail.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/pagy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gem/ruby/2.6.2/gems/pagy-3.5.1/lib/pagy/extras/bootstrap.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/authenticated_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/customer_details_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/earning_rules_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/customer_details/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <element signature="n#t#0;n#!!top" expanded="true" />
+            <element signature="n#t#1;n#!!top" expanded="true" />
+            <element signature="n#t#2;n#!!top" expanded="true" />
+            <element signature="n#t#3;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/earning_rules/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="48" lean-forward="true" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        <state relative-caret-position="230">
+          <caret line="10" column="24" lean-forward="true" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="305">
+            <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/earning_rules/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="n#t#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/earning_rules/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/earning_rules/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#610#664#0#ruby" expanded="true" />
+            <element signature="n#t#1;n#!!top" expanded="true" />
+            <element signature="n#t#2;n#!!top" expanded="true" />
+            <element signature="n#t#3;n#!!top" expanded="true" />
+            <element signature="n#t#4;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/earning_rules_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="54" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/earning_rules_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="25" column="64" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="25" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/customer_details_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/customer_details_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,10 @@
 en:
   earning_rule_page:
+    index_page:
+      name: "Name"
+      point: "Point"
+      status: "Status"
+      action: "Action"
     form:
       title: "Create Rule"
       submit: "Save"
@@ -21,6 +26,13 @@ en:
       messages:
         edit: ""
         delete: "Are you sure you want to delete this?"
+
+  customer_details_page:
+    index_page:
+      first_name: "First Name"
+      last_name: "Last Name"
+      email: "Email"
+      point_balance: "Point Balance"
 
   order_points_mailer:
     paid_order_email:

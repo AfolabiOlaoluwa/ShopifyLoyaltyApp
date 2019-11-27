@@ -174,9 +174,6 @@ GEM
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
-    pry-remote (0.1.8)
-      pry (~> 0.9)
-      slop (~> 3.0)
     public_suffix (4.0.1)
     puma (4.2.1)
       nio4r (~> 2.0)
@@ -242,9 +239,6 @@ GEM
       rspec-expectations (~> 3.8)
       rspec-mocks (~> 3.8)
       rspec-support (~> 3.8)
-    rspec-sidekiq (3.0.3)
-      rspec-core (~> 3.0, >= 3.0.0)
-      sidekiq (>= 2.4.0)
     rspec-support (3.9.0)
     ruby_dep (1.5.0)
     rubyzip (2.0.0)
@@ -281,7 +275,6 @@ GEM
     simple_form (4.1.0)
       actionpack (>= 5.0)
       activemodel (>= 5.0)
-    slop (3.6.0)
     spring (2.1.0)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -342,13 +335,11 @@ DEPENDENCIES
   pagy (~> 3.5, >= 3.5.1)
   pg (>= 0.18, < 2.0)
   pry
-  pry-remote (~> 0.1.8)
   puma (~> 4.1)
   rails (~> 6.0.1)
   rails-controller-testing
   redis (~> 4.0)
   rspec-rails (~> 4.0.0.beta2)
-  rspec-sidekiq
   sass-rails (>= 6)
   selenium-webdriver
   shopify_app (~> 11.3)

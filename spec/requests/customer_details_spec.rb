@@ -3,6 +3,18 @@
 require 'rails_helper'
 
 RSpec.describe 'CustomerDetail', type: :request do
+  def login(shop)
+    OmniAuth.config.test_mode = true
+    OmniAuth.config.add_mock(:shopify,
+                             provider: 'shopify',
+                             uid: shop.shopify_domain,
+                             credentials: { token: shop.shopify_token })
+    Rails.application.env_config['omniauth.auth'] = OmniAuth.config.mock_auth['shopify']
+
+    get '/auth/shopify'
+    follow_redirect!
+  end
+
   describe '#index' do
     context 'when logged in' do
       before { cookies[:shopify_domain] = 'example.com' }
@@ -11,6 +23,9 @@ RSpec.describe 'CustomerDetail', type: :request do
         @shop = create(:shop)
         @user = create(:user)
         sign_in @user
+        login @shop
+        @request.session[:shopify] = @shop.id
+        @request.session[:shopify_domain] = @shop.shopify_domain
       end
 
       it 'should returns a 200 response' do

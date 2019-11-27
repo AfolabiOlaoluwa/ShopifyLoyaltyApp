@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class CustomerDetailsController < ApplicationController
+class CustomerDetailsController < AuthenticatedController
   include StrictQueries::Concern
 
   before_action :authenticate_user!
