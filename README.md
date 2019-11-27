@@ -21,6 +21,7 @@ I will advise you use `Chruby` to configure your environment with `Ruby and Rail
    You can whitelist localhost url as well for it to work with your localhost e.g. `http://localhost:3000/auth/shopify/callback`
 6. Run `rails server` to start the app. 
 7. Then go to your browser and open the app locally using your forwarding ngrok url e.g. `https://fe84b16e.ngrok.io` or you use `localhost:3000`. Then app will lead you to adding the app to your shopify store.
+   ALSO, Kindly note I have leveraged on using SHOPIFY NAVIGATION links for my links and I didnt create one on the app directly.
    
 ##### To use already hosted Prod Environment App
 
