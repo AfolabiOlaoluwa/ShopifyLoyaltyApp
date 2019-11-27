@@ -8,5 +8,5 @@ class EarningRule < ApplicationRecord
   validates :name, presence: true
   validates :point, presence: true
 
-  scope :order_rule, ->(shop) { where(shop: shop).where(status: 'true').where(name: 'Order').pick(:point) }
+  scope :order_rule, ->(shop) { where(shop: shop, status: 'true', name: 'Order').pick(:point) }
 end

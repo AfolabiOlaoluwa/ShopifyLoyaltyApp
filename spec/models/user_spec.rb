@@ -11,7 +11,6 @@ RSpec.describe User, type: :model do
 
   describe 'association' do
     it { is_expected.to have_many(:earning_rules) }
-    it { is_expected.to have_many(:customer_details) }
   end
 
   describe 'validations' do

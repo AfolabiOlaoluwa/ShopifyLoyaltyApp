@@ -9,8 +9,8 @@ class OrderPointsMailer < ApplicationMailer
 
   def append_recipient_details(customer_detail_id)
     @customer_detail = CustomerDetail.find customer_detail_id
-    append_customer_details(@customer_detail.pick(:email))
+    append_customer_details(@customer_detail.email)
     mail subject: 'Congratulations',
-         to: @customer_detail.pick(:email)
+         to: @customer_detail.email
   end
 end

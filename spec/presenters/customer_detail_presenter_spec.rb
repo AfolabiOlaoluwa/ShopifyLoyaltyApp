@@ -29,6 +29,25 @@ RSpec.describe CustomerDetailPresenter do
     end
   end
 
+  describe '#previous_point' do
+    context 'when previous_point is nil' do
+      let(:customer_detail) { double(previous_point: nil) }
+
+      it 'returns nil' do
+        expect(subject.previous_point).to eq customer_detail.previous_point
+      end
+    end
+
+    context 'when previous_point is not nil' do
+      let(:customer_detail) { double(previous_point: 84343.0) }
+      let(:points) { double(value: (customer_detail.previous_point)) }
+
+      it 'returns the point_balance' do
+        expect(subject.previous_point).to eq ActiveSupport::NumberHelper.number_to_delimited(points.value)
+      end
+    end
+  end
+
   describe '#point_balance' do
     context 'when point_balance is nil' do
       let(:customer_detail) { double(point_balance: nil) }

@@ -37,6 +37,7 @@ group :development, :test do
   gem 'pry'
   gem 'rails-controller-testing'
   gem 'rspec-rails', '~> 4.0.0.beta2'
+  gem 'rspec-sidekiq'
 end
 
 group :development do

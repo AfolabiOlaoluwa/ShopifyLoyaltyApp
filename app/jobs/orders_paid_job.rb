@@ -20,9 +20,7 @@ class OrdersPaidJob < ApplicationJob
       }
 
       CustomerDetail.upsert(payload, unique_by: :email)
-      OrderPointsJob.send_mail(customer['email'])
-      # OrderPointsJob.perform_later(customer['email'])#.deliver_later #This enqueues
-      # OrderPointsJob.perform_later(webhook['customer']['email'])
+      OrderPointsJob.perform_now(customer['email'])
     end
   end
 

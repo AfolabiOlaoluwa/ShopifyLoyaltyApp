@@ -13,6 +13,8 @@ require 'database_cleaner'
 require 'capybara/rspec'
 require 'factory_bot_rails'
 require 'shoulda/matchers'
+require 'sidekiq/testing'
+Sidekiq::Testing.fake!
 
 Dir[Rails.root.join('spec', 'support', '**', '*.rb')].each(&method(:require))
 

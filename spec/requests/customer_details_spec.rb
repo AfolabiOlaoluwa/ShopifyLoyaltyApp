@@ -5,7 +5,10 @@ require 'rails_helper'
 RSpec.describe 'CustomerDetail', type: :request do
   describe '#index' do
     context 'when logged in' do
+      before { cookies[:shopify_domain] = 'example.com' }
+
       before do
+        @shop = create(:shop)
         @user = create(:user)
         sign_in @user
       end
@@ -15,7 +18,7 @@ RSpec.describe 'CustomerDetail', type: :request do
         expect(response).to have_http_status '200'
       end
 
-      it 'should render entry details index page' do
+      it 'should render customer details index page' do
         get customer_details_index_path
         expect(response).to render_template(:index)
       end
